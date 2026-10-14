@@ -4,6 +4,18 @@
 
 I built this to practice the kind of check I help with at work - making sure what we get billed matches what we agreed to pay and what was actually provided. I can't share any work data, so everything here is **fake data I generated**.
 
+## Live dashboard
+
+**[Open the dashboard](https://bunmii234.github.io/vendor-invoice-audit/)** - one page with the results, charts, and a searchable list. No code or downloads needed.
+
+## Results at a glance
+
+![Pricing overbilling by vendor](images/overbilling_by_vendor.png)
+
+![Overbilling by cause](images/overbilling_by_cause.png)
+
+The full report is `output/Vendor_Billing_Audit.xlsx` (GitHub can't preview Excel - click it, then **Download**). To see the flagged invoices right here, open [`output/flagged_invoices.csv`](output/flagged_invoices.csv).
+
 ## The problem
 
 A vendor should bill **contract rate x quantity used**. But in real life:
@@ -25,7 +37,7 @@ If you only look at whether an invoice total "looks about right," you miss all o
 
 Nothing in the invoices says which ones are wrong - the audit has to find them. The export is also messy on purpose: **36 spellings of 12 vendor names** and **2 date formats**, like a real system export.
 
-## What I did - 4 steps
+## What I did - 6 steps
 
 | Step | File | Tool | What it does |
 |---|---|---|---|
@@ -33,6 +45,8 @@ Nothing in the invoices says which ones are wrong - the audit has to find them. 
 | 2 | `python/02_clean_invoices.py` | pandas | fixes vendor names (36 -> 12), reads both date formats, stops if anything fails a check |
 | 3 | `python/03_run_audit.py` + `sql/` | SQL | runs 4 checks with JOINs and totals the results |
 | 4 | `python/04_build_excel_report.py` | pandas + openpyxl | builds the Excel report with a chart and a dispute list |
+| 5 | `python/05_make_charts.py` | matplotlib | saves the charts as pictures for this page |
+| 6 | `python/06_build_dashboard.py` + `dashboard/` | Python + HTML | builds the live dashboard page (`docs/index.html`) |
 
 ### The 4 checks (`sql/audit_checks.sql`)
 
@@ -65,6 +79,8 @@ python python/01_generate_data.py
 python python/02_clean_invoices.py
 python python/03_run_audit.py
 python python/04_build_excel_report.py
+python python/05_make_charts.py
+python python/06_build_dashboard.py
 ```
 
 The report shows up at `output/Vendor_Billing_Audit.xlsx` with 4 sheets: **Summary · By Vendor (with chart) · By Issue · Dispute List**.
