@@ -37,6 +37,7 @@
   .kpi .value { font-size: 28px; font-weight: 650; margin: 2px 0; font-variant-numeric: tabular-nums; }
   .kpi .sub { font-size: 13px; color: var(--muted); }
   .grid2 { display: grid; grid-template-columns: 1.35fr 1fr; gap: 12px; }
+  .grid2 > * { min-width: 0; }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin-bottom: 12px; }
   .card h2 { font-size: 17px; margin: 0 0 2px; }
   .card .hint { font-size: 13px; color: var(--muted); margin: 0 0 14px; }
@@ -77,6 +78,22 @@
   .tip b { display: block; }
   .theme-btn { float: right; font: inherit; font-size: 13px; background: var(--card); color: var(--ink2);
                border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+  .cols { display: flex; align-items: flex-end; gap: 8px; height: 200px; padding: 22px 4px 0; border-bottom: 1px solid var(--line); position: relative; }
+  .col { flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+  .col .colbar { width: 70%; background: var(--blue); border-radius: 4px 4px 0 0; min-height: 2px; }
+  .col:hover .colbar, .col:focus-visible .colbar { filter: brightness(1.12); }
+  .col:focus-visible { outline: none; }
+  .avgline { position: absolute; left: 0; right: 0; border-top: 2px dashed var(--ink); pointer-events: none; }
+  .avgline span { position: absolute; left: 4px; top: -20px; font-size: 12px; color: var(--ink); background: var(--card); padding: 0 4px; }
+  .colnames { display: flex; gap: 8px; padding: 6px 4px 0; }
+  .colnames div { flex: 1; text-align: center; font-size: 12px; color: var(--ink2); }
+  .score { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 12px; }
+  .score div { font-size: 13px; color: var(--ink2); }
+  .score b { display: block; font-size: 26px; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .mini { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .mini th, .mini td { padding: 6px 4px; border-bottom: 1px solid var(--line); text-align: left; white-space: normal; position: static; cursor: default; }
+  .mini th { color: var(--ink2); font-weight: 600; background: none; }
+  .mini td.num, .mini th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .start { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; margin-bottom: 12px; }
   .start h2 { font-size: 17px; margin: 0 0 2px; }
   .start .hint { font-size: 13px; color: var(--muted); margin: 0 0 12px; }
@@ -104,6 +121,8 @@
     .glossary { grid-template-columns: 1fr; }
   }
   @media (max-width: 480px) {
+    .cols, .colnames { gap: 3px; }
+    .colnames div { font-size: 10px; min-width: 0; }
     header h1 { font-size: 23px; }
     .kpi .value { font-size: 23px; }
     .bars .row { grid-template-columns: 110px 1fr 70px; gap: 6px; }
@@ -152,11 +171,27 @@
         <div class="callout" id="dupNote"></div>
       </div>
       <div class="card">
-        <h2>Was it already approved?</h2>
-        <p class="hint">Flagged dollars by the invoice's approval status.</p>
-        <div class="bars static" id="statusBars"></div>
+        <h2>Stop it, or get it back?</h2>
+        <p class="hint">Flagged dollars by what Finance can do. Pending invoices aren't paid yet; approved ones probably are.</p>
+        <div class="bars static" id="actionBars"></div>
         <div class="callout" id="statusNote"></div>
       </div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Is it getting worse?</h2>
+      <p class="hint">Extra dollars charged each month in 2025. Hover a month for details.</p>
+      <div class="cols" id="monthCols"></div>
+      <div class="colnames" id="monthNames"></div>
+      <div class="callout" id="monthNote"></div>
+    </div>
+    <div class="card">
+      <h2>Did the audit catch the right things?</h2>
+      <p class="hint">Because this is sample data, I know which problems were planted. So I graded the audit against that answer key.</p>
+      <div class="score" id="score"></div>
+      <table class="mini" id="accuracy"></table>
     </div>
   </div>
 
@@ -167,6 +202,7 @@
       <input id="q" type="search" placeholder="Search invoice # or vendor" aria-label="Search">
       <select id="fVendor" aria-label="Vendor"></select>
       <select id="fIssue" aria-label="Problem type"></select>
+      <select id="fAction" aria-label="Action"></select>
       <button id="clear" type="button">Clear</button>
       <span class="count" id="count"></span>
     </div>
@@ -185,7 +221,7 @@
   </div>
 
   <footer>
-    How it was built: Python (pandas) cleans the raw export &rarr; SQL runs the 4 checks &rarr; Python builds the Excel report and this page.
+    How it was built: Python (pandas) cleans the raw export &rarr; SQL runs the 4 checks &rarr; the results are graded against the answer key &rarr; Python builds the Excel report and this page.
     Full code and notes: <a href="https://github.com/Bunmii234/vendor-invoice-audit">github.com/Bunmii234/vendor-invoice-audit</a>
     &middot; Excel report: <a href="https://github.com/Bunmii234/vendor-invoice-audit/raw/main/output/Vendor_Billing_Audit.xlsx">download</a>
   </footer>
@@ -260,27 +296,58 @@ bars($("issueBars"), DATA.by_issue.map(i => ({label: i.issue, value: i.dollars, 
   tip: r => `<b>${r.label}</b>${money(r.value)} across ${r.n} invoices`,
 });
 $("dupNote").innerHTML = `Plus <b>${num(k.duplicates)} likely duplicate bills</b> worth ${money(k.duplicate_dollars)}. Those are the whole bill, not just an extra part, so they're kept separate.`;
-bars($("statusBars"), DATA.by_status.map(s => ({label: s.status, value: s.dollars, n: s.invoices})), {
+const SR = DATA.stop_recover;
+const stopRow = SR.find(r => r.action === "Can still stop"), recRow = SR.find(r => r.action === "Need to recover");
+bars($("actionBars"), SR.map(r => ({label: r.action, value: r.dollars, n: r.invoices})), {
   fmt: money,
   tip: r => `<b>${r.label}</b>${money(r.value)} on ${r.n} flagged invoices`,
 });
-const approved = DATA.by_status.find(s => s.status === "Approved");
-const totalStatus = DATA.by_status.reduce((a, s) => a + s.dollars, 0);
-$("statusNote").innerHTML = `<b>${Math.round(100 * approved.dollars / totalStatus)}% of flagged dollars were already approved</b> &mdash; that money was probably already paid. Checking before approval would catch it sooner.`;
+$("statusNote").innerHTML = `<b>${money(stopRow.dollars)} can still be stopped</b> &mdash; those invoices are pending, not paid. ${money(recRow.dollars)} was already approved and would have to be recovered from the vendors.`;
+
+// ---------- by month ----------
+(function () {
+  const rows = DATA.by_month, max = Math.max(...rows.map(r => r.dollars)) * 1.1;
+  const avg = rows.reduce((a, r) => a + r.dollars, 0) / rows.length;
+  rows.forEach(r => {
+    const col = document.createElement("div");
+    col.className = "col"; col.tabIndex = 0;
+    col.innerHTML = `<div class="colbar" style="height:${(100 * r.dollars / max).toFixed(1)}%"></div>`;
+    const html = `<b>${r.label} 2025</b>${money(r.dollars)} extra charged`;
+    col.addEventListener("mousemove", e => showTip(e, html));
+    col.addEventListener("mouseleave", hideTip);
+    col.addEventListener("focus", e => showTip(e, html));
+    col.addEventListener("blur", hideTip);
+    $("monthCols").appendChild(col);
+    $("monthNames").insertAdjacentHTML("beforeend", `<div>${r.label}</div>`);
+  });
+  $("monthCols").insertAdjacentHTML("beforeend",
+    `<div class="avgline" style="bottom:${(100 * avg / max).toFixed(1)}%"><span>average ${money(avg)} a month</span></div>`);
+  $("monthNote").innerHTML = `<b>It happens every single month</b> &mdash; about ${money(avg)} on average, with no month near zero. That points to a process problem, not one bad invoice.`;
+})();
+
+// ---------- accuracy ----------
+const total = DATA.accuracy.find(r => r.planted_problem === "TOTAL");
+$("score").innerHTML = `<div><b>${num(total.caught)} of ${num(total.planted)}</b>planted problems caught</div>
+  <div><b>${num(total.missed)}</b>missed</div><div><b>${num(DATA.false_alarms)}</b>false alarms on clean invoices</div>`;
+const NAMES = {rate_small: "Rate a little high (2-6%)", rate_large: "Rate way high (15-40%)", padding: "Padded quantity",
+               fee: "Hidden fee", duplicate: "Duplicate bill"};
+$("accuracy").innerHTML = `<tr><th>Planted problem</th><th class="num">Planted</th><th class="num">Caught</th></tr>` +
+  DATA.accuracy.filter(r => r.planted_problem !== "TOTAL").map(r =>
+    `<tr><td>${NAMES[r.planted_problem]}</td><td class="num">${r.planted}</td><td class="num">${r.caught}</td></tr>`).join("");
 
 // ---------- next steps ----------
 const top2 = DATA.by_vendor.slice(0, 2).map(v => v.vendor).join(" and ");
 $("nextSteps").innerHTML = [
-  `<b>Stop the duplicates first.</b> ${num(k.duplicates)} bills (${money(k.duplicate_dollars)}) look like repeats. Hold any that aren't paid yet.`,
+  `<b>Stop the ${money(stopRow.dollars)} on pending invoices first.</b> They aren't paid yet &mdash; it's the easiest money to save.`,
+  `<b>Hold every likely duplicate.</b> ${num(k.duplicates)} bills (${money(k.duplicate_dollars)}) look like repeats.`,
   `<b>Dispute the rate overcharges with ${top2}.</b> They're the two biggest, and rate problems are the largest cause.`,
-  `<b>Ask for usage proof</b> on invoices billed above our recorded quantity.`,
-  `<b>Run these checks before approval</b>, not after &mdash; most flagged dollars were already approved.`,
+  `<b>Run these checks before approval, every month.</b> It's a steady monthly leak, so a one-time cleanup won't fix it.`,
 ].map(s => `<li>${s}</li>`).join("");
 
 
 // ---------- "start here" questions ----------
 function setView(v) {
-  $("q").value = v.q || ""; $("fVendor").value = v.vendor || ""; $("fIssue").value = v.issue || "";
+  $("q").value = v.q || ""; $("fVendor").value = v.vendor || ""; $("fIssue").value = v.issue || ""; $("fAction").value = v.action || "";
   sortKey = v.sortKey || "overbilled"; sortDir = v.sortDir || -1;
   render();
   const card = $("disputes");
@@ -293,7 +360,7 @@ const QUESTIONS = [
   {t: "Which invoices should we dispute first?", d: "The biggest problems, largest dollars on top.", v: {}},
   {t: "Show me only the duplicate bills", d: `${num(k.duplicates)} bills that look like they were sent twice.`, v: {issue: "Likely duplicate"}},
   {t: `What did ${topVendor} overcharge?`, d: "The vendor with the most overbilling.", v: {vendor: topVendor}},
-  {t: "Find one invoice", d: "Type an invoice number like INV00800.", v: {focus: true}},
+  {t: "What can we still stop?", d: `${money(stopRow.dollars)} on invoices not paid yet.`, v: {action: "Can still stop"}},
 ];
 $("questions").innerHTML = QUESTIONS.map((q, i) =>
   `<button class="qbtn" type="button" data-i="${i}"><b>${q.t}</b><span>${q.d}</span> <span class="go">Show me &rarr;</span></button>`).join("");
@@ -308,6 +375,7 @@ const COLS = [
   {key: "overbilled", label: "$ at issue", num: true, fmt: money},
   {key: "amount", label: "Invoice total", num: true, fmt: money},
   {key: "status", label: "Status", fmt: s => `<span class="pill">${s}</span>`},
+  {key: "action", label: "What to do"},
 ];
 let sortKey = "overbilled", sortDir = -1;
 
@@ -315,13 +383,14 @@ const vendors = [...new Set(DATA.disputes.map(d => d.vendor))].sort();
 const issues = [...new Set(DATA.disputes.map(d => d.issue))].sort();
 $("fVendor").innerHTML = `<option value="">All vendors</option>` + vendors.map(v => `<option>${v}</option>`).join("");
 $("fIssue").innerHTML = `<option value="">All problems</option>` + issues.map(v => `<option>${v}</option>`).join("");
+$("fAction").innerHTML = `<option value="">All actions</option>` + ["Can still stop", "Need to recover", "Already rejected"].map(v => `<option>${v}</option>`).join("");
 
 function render() {
   const q = $("q").value.trim().toLowerCase();
-  const fv = $("fVendor").value, fi = $("fIssue").value;
+  const fv = $("fVendor").value, fi = $("fIssue").value, fa = $("fAction").value;
   let rows = DATA.disputes.filter(d =>
     (!q || d.invoice_id.toLowerCase().includes(q) || d.vendor.toLowerCase().includes(q)) &&
-    (!fv || d.vendor === fv) && (!fi || d.issue === fi));
+    (!fv || d.vendor === fv) && (!fi || d.issue === fi) && (!fa || d.action === fa));
   rows.sort((a, b) => (a[sortKey] > b[sortKey] ? 1 : a[sortKey] < b[sortKey] ? -1 : 0) * sortDir);
   $("head").innerHTML = COLS.map(c =>
     `<th class="${c.num ? "num" : ""}" data-key="${c.key}">${c.label} <span class="arrow">${c.key === sortKey ? (sortDir < 0 ? "▼" : "▲") : ""}</span></th>`).join("");
@@ -332,6 +401,7 @@ function render() {
   const parts = [];
   if (fv) parts.push(`vendor <b>${fv}</b>`);
   if (fi) parts.push(`problem <b>${fi}</b>`);
+  if (fa) parts.push(`<b>${fa}</b>`);
   if (q) parts.push(`search "<b>${$("q").value.trim()}</b>"`);
   $("showing").className = "showing" + (parts.length ? " on" : "");
   $("showing").innerHTML = parts.length
@@ -346,8 +416,8 @@ function render() {
     sortKey = key; render();
   });
 }
-["q", "fVendor", "fIssue"].forEach(id => $(id).addEventListener("input", render));
-$("clear").onclick = () => { $("q").value = ""; $("fVendor").value = ""; $("fIssue").value = ""; render(); };
+["q", "fVendor", "fIssue", "fAction"].forEach(id => $(id).addEventListener("input", render));
+$("clear").onclick = () => { ["q", "fVendor", "fIssue", "fAction"].forEach(id => $(id).value = ""); render(); };
 render();
 </script>
 </body>

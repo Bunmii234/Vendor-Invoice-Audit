@@ -34,9 +34,10 @@ VENDORS = [  # name, category, contracted rate, unit type
 #       4) what the rate is per (hour, unit, seat, or shipment).
 #       Example: Hartwell Legal Advisors charges $310 per hour.
 #       This is the "contract" that every invoice gets checked against later.
-invoices, usage, n = [], [], 1
-# NOTE: Created 2 empty lists to fill up: invoices (what vendors bill us) and
-#       usage (what our own records say was used). n = 1 is a counter for invoice numbers.
+invoices, usage, answer_key, n = [], [], [], 1
+# NOTE: Created 3 empty lists to fill up: invoices (what vendors bill us),
+#       usage (what our own records say was used), and answer_key (which problem I planted where).
+#       n = 1 is a counter for invoice numbers.
 
 for _ in range(1400):
     # NOTE: Start a loop that repeats 1,400 times - one time per real job done by a vendor.
@@ -68,7 +69,8 @@ for _ in range(1400):
     # NOTE: Picked what kind of invoice this job turns into - most are clean (68%), the rest have a problem:
     #       rate_small = rate a little over contract (2-6%), rate_large = rate way over (15-40%),
     #       padding = billed for more than we used, duplicate = same bill sent twice, fee = random extra fee.
-    #       This is the "answer key" - but it never gets saved, so the audit has to find these on its own.
+    #       This is the "answer key". It gets saved in its own file that the audit NEVER reads -
+    #       only Step 4 opens it at the end, to check how many problems the audit actually caught.
 
     b_rate, b_qty = rate, qty
     if fate == "rate_small":   b_rate = round(rate * random.uniform(1.02, 1.06), 2)
@@ -90,10 +92,15 @@ for _ in range(1400):
                billed_rate=b_rate, quantity_billed=b_qty, amount_billed=amount, approval_status=status)
     invoices.append(inv)
     usage.append(dict(invoice_id=inv["invoice_id"], recorded_quantity=qty))
+    if fate == "duplicate":
+        answer_key.append(dict(invoice_id=inv["invoice_id"], planted_problem="clean"))
+    else:
+        answer_key.append(dict(invoice_id=inv["invoice_id"], planted_problem=fate))
     n += 1
     # NOTE: Built one invoice as a dict (a row with column names) and added it to the invoices list.
     #       f"INV{n:05d}" makes IDs like INV00001 (5 digits, zeros in front).
     #       Then I saved the TRUE quantity in the usage list - that's "our own records" to check the vendor against.
+    #       The answer key gets what I planted. For a duplicate, the FIRST bill is clean - the copy is the problem.
     #       n += 1 moves the counter up so the next invoice gets the next number.
 
     if fate == "duplicate":
@@ -102,6 +109,7 @@ for _ in range(1400):
         dup["invoice_date"] = d + timedelta(days=random.randint(2, 10))
         dup["approval_status"] = random.choices(["Approved", "Pending Review"], weights=[0.6, 0.4])[0]
         invoices.append(dup)
+        answer_key.append(dict(invoice_id=dup["invoice_id"], planted_problem="duplicate"))
         n += 1
     # NOTE: For duplicates I made a copy of the same invoice (.copy()), then gave the copy a new ID,
     #       a date 2-10 days later, and its own approval status.
@@ -130,7 +138,9 @@ usage_table = pd.DataFrame(usage)
 invoices_table.to_csv("data/raw/invoices_raw.csv", index=False)
 contracts_table.to_csv("data/raw/contracts.csv", index=False)
 usage_table.to_csv("data/raw/usage_log.csv", index=False)
+pd.DataFrame(answer_key).to_csv("data/answer_key.csv", index=False)
 print("invoices:", len(invoices), "| contracts:", len(VENDORS), "| usage records:", len(usage))
 # NOTE: Saved the 3 tables as CSV files - what vendors billed, what we agreed to pay, and what we actually used.
 #       index=False = don't add an extra row-number column.
+#       The answer key goes in data/answer_key.csv - NOT in data/raw, so it's clearly not part of the audit's input.
 #       Then printed the counts so I know it worked: invoices: 1462 | contracts: 12 | usage records: 1400

@@ -42,7 +42,7 @@ summaries = open("sql/summary_queries.sql").read().split(";")
 for query in summaries:
     if query.strip() != "":
         print(pd.read_sql(query, con).to_string(index=False), "\n")
-# NOTE: Same thing for the summary queries (totals by vendor, by issue, top 5 share, by approval status).
+# NOTE: Same thing for the summary queries (by vendor, by issue, top 5 share, stop or recover, by month).
 #       Ran each one and printed the result.
 
 con.close()

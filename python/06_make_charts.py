@@ -1,4 +1,4 @@
-# STEP 5 - Save the charts as pictures for the README
+# STEP 6 - Save the charts as pictures for the README
 # Problem: GitHub can't show an Excel file, so anyone looking at my repo sees text but no chart.
 #          Saving the charts as PNG images lets the README show them at the top.
 
@@ -64,4 +64,30 @@ plt.savefig("images/overbilling_by_cause.png", dpi=150)
 plt.close()
 # NOTE: Same steps as chart 1, just a shorter chart because there are only 3 bars.
 
-print("Saved images/overbilling_by_vendor.png and images/overbilling_by_cause.png")
+# ---------- Chart 3: overbilling by month ----------
+inv = pd.read_csv("output/invoices_clean.csv")
+with_dates = pricing.merge(inv[["invoice_id", "invoice_date"]], on="invoice_id")
+with_dates["month_number"] = pd.to_datetime(with_dates["invoice_date"]).dt.month
+by_month = with_dates.groupby("month_number")["overbilled"].sum()
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+# NOTE: Brought in each flag's invoice date (merge = XLOOKUP), pulled out the month number (1-12),
+#       and added up the dollars per month. MONTHS = the short names for the labels under the bars.
+
+fig, ax = plt.subplots(figsize=(9, 3.5))
+ax.bar(MONTHS, by_month.values, color=BLUE, width=0.6)
+average = by_month.mean()
+ax.axhline(average, color=DARK, linewidth=1.5, linestyle="--")
+ax.text(-0.4, average + 700, f"average ${average:,.0f} a month", fontsize=9, color=DARK)
+ax.set_title("Overbilling by month - it happens every month, not one bad spike",
+             loc="left", fontsize=12, color=DARK)
+ax.yaxis.set_major_formatter("${x:,.0f}")
+ax.set_ylim(0, by_month.max() * 1.12)
+ax.spines[["top", "right"]].set_visible(False)
+ax.tick_params(colors=GRAY)
+plt.tight_layout()
+plt.savefig("images/overbilling_by_month.png", dpi=150)
+plt.close()
+# NOTE: One bar per month, plus a dashed line for the monthly average (axhline = a flat line across).
+#       The point: it's a steady leak every month, so it's a process problem - not one bad invoice.
+
+print("Saved 3 charts in the images folder")

@@ -40,13 +40,33 @@ FROM (
 );
 
 
--- Q4 - Did the bad invoices already get approved?
--- JOIN flags back to invoices to get each one's approval status, then total by status.
--- If most dollars are "Approved", the money probably already went out the door.
-SELECT i.approval_status,
+-- Q4 - Can we still stop the money, or do we need to get it back?
+-- JOIN flags back to invoices to get each one's approval status.
+-- CASE WHEN turns the status into an action:
+--   Pending Review = not paid yet, so we can still STOP it
+--   Approved       = probably already paid, so we need to RECOVER it
+--   Rejected       = already stopped
+SELECT CASE i.approval_status
+         WHEN 'Pending Review' THEN 'Can still stop'
+         WHEN 'Approved'       THEN 'Need to recover'
+         ELSE 'Already rejected'
+       END AS what_to_do,
        COUNT(DISTINCT f.invoice_id) AS flagged_invoices,
        ROUND(SUM(f.overbilled), 2) AS dollars
 FROM flags f
 JOIN invoices i ON i.invoice_id = f.invoice_id
-GROUP BY i.approval_status
+GROUP BY what_to_do
 ORDER BY dollars DESC;
+
+
+-- Q5 - Is the overbilling getting worse? (pricing problems by month)
+-- strftime('%Y-%m', date) pulls out just the year and month, like 2025-03.
+-- In SQL Server it would be FORMAT(i.invoice_date, 'yyyy-MM') instead.
+SELECT strftime('%Y-%m', i.invoice_date) AS month,
+       COUNT(DISTINCT f.invoice_id) AS flagged_invoices,
+       ROUND(SUM(f.overbilled), 2) AS overbilled
+FROM flags f
+JOIN invoices i ON i.invoice_id = f.invoice_id
+WHERE f.issue <> 'Likely duplicate'
+GROUP BY month
+ORDER BY month;

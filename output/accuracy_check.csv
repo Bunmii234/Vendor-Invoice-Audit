@@ -1,0 +1,7 @@
+planted_problem,should_be_flagged_as,planted,caught,missed
+rate_small,Rate above contract,164,164,0
+rate_large,Rate above contract,73,73,0
+padding,Quantity above usage,96,96,0
+fee,Unexplained fee,62,62,0
+duplicate,Likely duplicate,62,62,0
+TOTAL,,457,457,0
