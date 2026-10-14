@@ -1,0 +1,13 @@
+vendor_name,category,contracted_rate,unit_type
+Apex IT Consulting,IT Services,145.0,hourly
+Meridian Systems Group,IT Services,130.0,hourly
+Staples Business Advantage,Office Supplies,1.0,per_unit
+OfficeMax Direct,Office Supplies,1.0,per_unit
+Reliant Facilities Mgmt,Facilities,62.0,hourly
+ClearView Janitorial,Facilities,38.0,hourly
+Hartwell Legal Advisors,Professional Services,310.0,hourly
+Beacon Consulting Partners,Professional Services,220.0,hourly
+Vantage Software Inc,Software Licensing,42.0,per_seat
+CloudSuite Solutions,Software Licensing,55.0,per_seat
+Swift Freight Logistics,Logistics & Shipping,18.5,per_shipment
+Regional Courier Co,Logistics & Shipping,14.0,per_shipment

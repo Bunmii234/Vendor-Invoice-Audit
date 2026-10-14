@@ -1,0 +1,1463 @@
+invoice_id,vendor_name,invoice_date,unit_type,billed_rate,quantity_billed,amount_billed,approval_status
+INV00001,Staples Business Advantage,2025-08-03,per_unit,1.0,726.0,726.0,Approved
+INV00002,OfficeMax Direct,2025-09-01,per_unit,1.0,544.0,544.0,Approved
+INV00003,Apex IT Consulting,2025-01-08,hourly,145.0,32.2,4669.0,Approved
+INV00004,OfficeMax Direct,2025-04-30,per_unit,1.0,730.0,730.0,Rejected
+INV00005,Regional Courier Co,2025-07-28,per_shipment,14.0,325.0,4550.0,Rejected
+INV00006,Vantage Software Inc,2025-09-12,per_seat,42.0,182.0,7644.0,Rejected
+INV00007,ClearView Janitorial,2025-01-12,hourly,44.89,15.8,709.26,Pending Review
+INV00008,Beacon Consulting Partners,2025-03-24,hourly,220.0,46.0,10120.0,Approved
+INV00009,Staples Business Advantage,2025-12-07,per_unit,1.0,58.0,58.0,Pending Review
+INV00010,Meridian Systems Group,2025-04-12,hourly,130.0,19.9,2723.75,Approved
+INV00011,CloudSuite Solutions,2025-02-06,per_seat,55.0,36.0,1980.0,Approved
+INV00012,Hartwell Legal Advisors,2025-04-13,hourly,310.0,29.9,9269.0,Approved
+INV00013,Reliant Facilities Mgmt,2025-07-06,hourly,62.0,76.5,4743.0,Approved
+INV00014,Beacon Consulting Partners,2025-07-17,hourly,261.74,24.2,6334.11,Approved
+INV00015,Beacon Consulting Partners,2025-01-02,hourly,220.0,41.4,9108.0,Approved
+INV00016,OfficeMax Direct,2025-10-20,per_unit,1.0,643.0,643.0,Rejected
+INV00017,Meridian Systems Group,2025-04-03,hourly,130.0,54.9,7137.0,Pending Review
+INV00018,ClearView Janitorial,2025-06-27,hourly,38.0,61.9,2352.2,Approved
+INV00019,ClearView Janitorial,2025-07-01,hourly,38.0,61.9,2352.2,Approved
+INV00020,Staples Business Advantage,2025-08-08,per_unit,1.0,403.0,403.0,Approved
+INV00021,Vantage Software Inc,2025-12-03,per_seat,42.0,250.0,10500.0,Pending Review
+INV00022,Staples Business Advantage,2025-10-30,per_unit,1.0,39.6,39.6,Approved
+INV00023,OfficeMax Direct,2025-05-06,per_unit,1.0,186.0,186.0,Approved
+INV00024,Hartwell Legal Advisors,2025-09-05,hourly,310.0,8.4,2604.0,Pending Review
+INV00025,Swift Freight Logistics,2025-05-29,per_shipment,18.5,27.0,499.5,Approved
+INV00026,Meridian Systems Group,2025-06-23,hourly,130.0,53.1,6903.0,Approved
+INV00027,Regional Courier Co,2025-09-03,per_shipment,14.0,35.0,490.0,Rejected
+INV00028,Vantage Software Inc,2025-09-03,per_seat,42.0,12.0,641.43,Approved
+INV00029,Staples Business Advantage,2025-07-08,per_unit,1.04,635.0,660.4,Pending Review
+INV00030,Beacon Consulting Partners,2025-06-07,hourly,220.0,14.5,3190.0,Approved
+INV00031,Regional Courier Co,2025-01-06,per_shipment,14.81,205.0,3036.05,Approved
+INV00032,CloudSuite Solutions,2025-06-16,per_seat,55.0,169.0,9295.0,Rejected
+INV00033,Hartwell Legal Advisors,2025-05-12,hourly,326.27,55.9,18238.49,Approved
+INV00034,Staples Business Advantage,2025-02-18,per_unit,1.0,426.0,426.0,Approved
+INV00035,Beacon Consulting Partners,2025-03-14,hourly,220.0,9.5,2090.0,Approved
+INV00036,Reliant Facilities Mgmt,2025-10-03,hourly,62.0,75.6,4687.2,Pending Review
+INV00037,CloudSuite Solutions,2025-03-27,per_seat,55.0,51.0,2805.0,Approved
+INV00038,Regional Courier Co,2025-10-09,per_shipment,14.0,397.0,5558.0,Approved
+INV00039,Regional Courier Co,2025-01-30,per_shipment,14.0,14.0,196.0,Pending Review
+INV00040,Hartwell Legal Advisors,2025-10-18,hourly,319.34,17.3,5524.58,Approved
+INV00041,ClearView Janitorial,2025-01-22,hourly,38.0,22.6,858.8,Approved
+INV00042,Reliant Facilities Mgmt,2025-09-15,hourly,62.0,65.0,4030.0,Approved
+INV00043,Vantage Software Inc,2025-11-04,per_seat,42.0,20.0,840.0,Approved
+INV00044,Vantage Software Inc,2025-06-08,per_seat,43.72,79.0,3453.88,Approved
+INV00045,Meridian Systems Group,2025-11-12,hourly,130.0,65.9,8636.4,Approved
+INV00046,Hartwell Legal Advisors,2025-02-25,hourly,310.0,70.0,21700.0,Approved
+INV00047,Beacon Consulting Partners,2025-09-16,hourly,220.0,51.2,11264.0,Approved
+INV00048,Beacon Consulting Partners,2025-08-30,hourly,220.0,43.3,9526.0,Approved
+INV00049,OfficeMax Direct,2025-01-13,per_unit,1.0,69.0,69.0,Approved
+INV00050,Reliant Facilities Mgmt,2025-12-27,hourly,62.0,48.8,3025.6,Approved
+INV00051,OfficeMax Direct,2025-07-24,per_unit,1.0,414.0,414.0,Approved
+INV00052,Swift Freight Logistics,2025-02-13,per_shipment,18.5,29.0,536.5,Approved
+INV00053,Regional Courier Co,2025-11-06,per_shipment,14.63,120.0,1755.6,Approved
+INV00054,Swift Freight Logistics,2025-11-07,per_shipment,22.49,367.0,8253.83,Approved
+INV00055,Beacon Consulting Partners,2025-07-17,hourly,220.0,27.3,6006.0,Approved
+INV00056,Regional Courier Co,2025-01-04,per_shipment,14.0,92.0,1288.0,Approved
+INV00057,Hartwell Legal Advisors,2025-03-16,hourly,310.0,10.9,3379.0,Approved
+INV00058,CloudSuite Solutions,2025-07-12,per_seat,58.26,195.0,11360.7,Rejected
+INV00059,Staples Business Advantage,2025-12-27,per_unit,1.0,463.0,463.0,Approved
+INV00060,Swift Freight Logistics,2025-10-25,per_shipment,18.5,358.0,6623.0,Approved
+INV00061,Apex IT Consulting,2025-06-14,hourly,145.0,43.1,6249.5,Rejected
+INV00062,Apex IT Consulting,2025-06-24,hourly,145.0,43.1,6249.5,Approved
+INV00063,CloudSuite Solutions,2025-12-19,per_seat,56.45,76.0,4290.2,Approved
+INV00064,Hartwell Legal Advisors,2025-08-12,hourly,310.0,39.0,12090.0,Approved
+INV00065,Swift Freight Logistics,2025-07-16,per_shipment,18.5,328.0,6068.0,Approved
+INV00066,OfficeMax Direct,2025-01-18,per_unit,1.38,379.0,523.02,Approved
+INV00067,Apex IT Consulting,2025-02-08,hourly,145.0,42.1,6104.5,Approved
+INV00068,Regional Courier Co,2025-08-19,per_shipment,14.0,132.0,1990.69,Approved
+INV00069,Reliant Facilities Mgmt,2025-04-08,hourly,62.0,44.0,2728.0,Approved
+INV00070,Hartwell Legal Advisors,2025-09-29,hourly,310.0,67.9,21049.0,Approved
+INV00071,Vantage Software Inc,2025-05-06,per_seat,42.0,62.0,2604.0,Pending Review
+INV00072,CloudSuite Solutions,2025-08-28,per_seat,57.55,231.0,13294.05,Approved
+INV00073,Hartwell Legal Advisors,2025-12-03,hourly,310.0,18.3,5673.0,Approved
+INV00074,CloudSuite Solutions,2025-10-02,per_seat,55.0,163.0,8965.0,Approved
+INV00075,Swift Freight Logistics,2025-06-23,per_shipment,18.5,88.0,1628.0,Approved
+INV00076,Reliant Facilities Mgmt,2025-11-24,hourly,62.0,56.5,3503.0,Approved
+INV00077,Vantage Software Inc,2025-02-20,per_seat,52.08,178.0,9270.24,Approved
+INV00078,Staples Business Advantage,2025-01-20,per_unit,1.0,619.0,619.0,Approved
+INV00079,Swift Freight Logistics,2025-07-24,per_shipment,18.5,90.0,1665.0,Approved
+INV00080,ClearView Janitorial,2025-10-03,hourly,38.0,23.0,874.0,Approved
+INV00081,Vantage Software Inc,2025-08-05,per_seat,42.0,25.0,1050.0,Approved
+INV00082,Vantage Software Inc,2025-01-21,per_seat,42.0,191.0,8022.0,Approved
+INV00083,Swift Freight Logistics,2025-11-26,per_shipment,18.5,99.0,1831.5,Approved
+INV00084,Beacon Consulting Partners,2025-03-24,hourly,220.0,69.7,15334.0,Approved
+INV00085,Reliant Facilities Mgmt,2025-12-14,hourly,64.85,8.2,531.77,Approved
+INV00086,CloudSuite Solutions,2025-02-27,per_seat,55.0,84.0,4620.0,Pending Review
+INV00087,Regional Courier Co,2025-07-07,per_shipment,14.0,15.0,210.0,Approved
+INV00088,Regional Courier Co,2025-07-13,per_shipment,14.0,15.0,210.0,Pending Review
+INV00089,Hartwell Legal Advisors,2025-11-28,hourly,310.0,60.9,18879.0,Rejected
+INV00090,Vantage Software Inc,2025-07-31,per_seat,42.0,57.0,2394.0,Approved
+INV00091,Reliant Facilities Mgmt,2025-08-19,hourly,62.0,68.7,4259.4,Approved
+INV00092,Hartwell Legal Advisors,2025-11-03,hourly,310.0,17.5,5425.0,Approved
+INV00093,ClearView Janitorial,2025-10-21,hourly,38.0,14.0,532.0,Approved
+INV00094,CloudSuite Solutions,2025-01-14,per_seat,57.73,175.0,10102.75,Approved
+INV00095,Vantage Software Inc,2025-09-25,per_seat,42.0,115.6,4855.2,Approved
+INV00096,OfficeMax Direct,2025-12-06,per_unit,1.0,454.0,454.0,Approved
+INV00097,Beacon Consulting Partners,2025-04-08,hourly,220.0,53.5,11770.0,Approved
+INV00098,Hartwell Legal Advisors,2025-04-24,hourly,310.0,41.2,12772.0,Approved
+INV00099,Beacon Consulting Partners,2025-04-16,hourly,285.25,6.7,1911.17,Approved
+INV00100,Regional Courier Co,2025-03-13,per_shipment,14.0,384.0,5376.0,Approved
+INV00101,Staples Business Advantage,2025-07-21,per_unit,1.0,53.0,53.0,Approved
+INV00102,CloudSuite Solutions,2025-06-01,per_seat,69.55,152.0,10571.6,Approved
+INV00103,Regional Courier Co,2025-10-11,per_shipment,14.0,257.0,3598.0,Approved
+INV00104,Staples Business Advantage,2025-09-13,per_unit,1.0,361.0,361.0,Approved
+INV00105,Swift Freight Logistics,2025-08-18,per_shipment,18.92,316.0,5978.72,Approved
+INV00106,Meridian Systems Group,2025-07-11,hourly,134.99,53.8,7262.46,Approved
+INV00107,OfficeMax Direct,2025-11-01,per_unit,1.0,394.6,394.6,Approved
+INV00108,Swift Freight Logistics,2025-03-08,per_shipment,19.56,84.0,1643.04,Approved
+INV00109,CloudSuite Solutions,2025-06-01,per_seat,55.0,170.0,9350.0,Approved
+INV00110,Beacon Consulting Partners,2025-09-11,hourly,227.35,20.6,4683.41,Approved
+INV00111,ClearView Janitorial,2025-01-05,hourly,38.0,18.7,710.6,Approved
+INV00112,Regional Courier Co,2025-07-31,per_shipment,14.0,40.0,560.0,Pending Review
+INV00113,Swift Freight Logistics,2025-09-19,per_shipment,18.5,20.0,424.06,Approved
+INV00114,Beacon Consulting Partners,2025-09-14,hourly,220.0,44.9,9878.0,Approved
+INV00115,Apex IT Consulting,2025-11-22,hourly,145.0,76.3,11063.5,Approved
+INV00116,Beacon Consulting Partners,2025-11-22,hourly,229.56,53.2,12212.59,Approved
+INV00117,OfficeMax Direct,2025-01-11,per_unit,1.0,829.5,829.5,Approved
+INV00118,CloudSuite Solutions,2025-02-14,per_seat,55.0,93.0,5115.0,Approved
+INV00119,Reliant Facilities Mgmt,2025-06-17,hourly,62.0,56.6,3509.2,Rejected
+INV00120,Beacon Consulting Partners,2025-04-06,hourly,220.0,19.3,4246.0,Approved
+INV00121,Staples Business Advantage,2025-04-24,per_unit,1.0,584.0,584.0,Approved
+INV00122,Meridian Systems Group,2025-11-18,hourly,133.66,34.8,4651.37,Approved
+INV00123,Vantage Software Inc,2025-01-10,per_seat,43.21,26.0,1123.46,Approved
+INV00124,OfficeMax Direct,2025-04-15,per_unit,1.0,462.0,462.0,Approved
+INV00125,Vantage Software Inc,2025-12-24,per_seat,52.5,174.0,9135.0,Rejected
+INV00126,Swift Freight Logistics,2025-07-03,per_shipment,18.5,223.0,4125.5,Approved
+INV00127,Hartwell Legal Advisors,2025-10-24,hourly,310.0,40.6,12586.0,Approved
+INV00128,Reliant Facilities Mgmt,2025-08-30,hourly,62.0,58.7,3639.4,Approved
+INV00129,ClearView Janitorial,2025-07-09,hourly,38.0,54.5,2071.0,Approved
+INV00130,Reliant Facilities Mgmt,2025-01-28,hourly,62.0,12.8,793.6,Approved
+INV00131,Staples Business Advantage,2025-03-18,per_unit,1.0,339.0,339.0,Approved
+INV00132,Swift Freight Logistics,2025-12-13,per_shipment,18.5,256.8,4750.8,Approved
+INV00133,Hartwell Legal Advisors,2025-09-20,hourly,310.0,56.5,17515.0,Approved
+INV00134,Vantage Software Inc,2025-07-06,per_seat,42.0,190.0,7980.0,Approved
+INV00135,Reliant Facilities Mgmt,2025-11-08,hourly,62.0,29.1,1804.2,Pending Review
+INV00136,Hartwell Legal Advisors,2025-09-15,hourly,310.0,19.2,5952.0,Approved
+INV00137,ClearView Janitorial,2025-01-07,hourly,38.0,54.7,2078.6,Approved
+INV00138,Beacon Consulting Partners,2025-05-08,hourly,220.0,60.0,13200.0,Approved
+INV00139,Reliant Facilities Mgmt,2025-12-25,hourly,82.02,49.2,4035.38,Approved
+INV00140,ClearView Janitorial,2025-07-08,hourly,45.09,71.7,3232.95,Approved
+INV00141,Regional Courier Co,2025-12-13,per_shipment,14.0,386.0,5538.88,Approved
+INV00142,Reliant Facilities Mgmt,2025-06-17,hourly,83.43,46.6,3887.84,Approved
+INV00143,Apex IT Consulting,2025-11-17,hourly,145.0,47.9,6945.5,Approved
+INV00144,Apex IT Consulting,2025-11-22,hourly,145.0,47.9,6945.5,Pending Review
+INV00145,Apex IT Consulting,2025-04-18,hourly,145.0,66.6,9744.41,Approved
+INV00146,Vantage Software Inc,2025-04-19,per_seat,42.0,47.0,1974.0,Approved
+INV00147,Swift Freight Logistics,2025-05-31,per_shipment,18.5,76.0,1406.0,Approved
+INV00148,Regional Courier Co,2025-01-03,per_shipment,14.0,396.0,5544.0,Approved
+INV00149,Beacon Consulting Partners,2025-01-25,hourly,220.0,9.7,2134.0,Approved
+INV00150,CloudSuite Solutions,2025-06-01,per_seat,55.0,172.0,9460.0,Approved
+INV00151,Hartwell Legal Advisors,2025-07-20,hourly,310.0,76.3,23653.0,Approved
+INV00152,Apex IT Consulting,2025-12-26,hourly,152.99,35.1,5369.95,Approved
+INV00153,ClearView Janitorial,2025-12-26,hourly,38.0,24.2,919.6,Approved
+INV00154,Swift Freight Logistics,2025-11-19,per_shipment,18.5,190.0,3515.0,Approved
+INV00155,Meridian Systems Group,2025-05-23,hourly,130.0,64.4,8372.0,Rejected
+INV00156,Apex IT Consulting,2025-03-27,hourly,150.83,64.0,9653.12,Approved
+INV00157,Apex IT Consulting,2025-03-30,hourly,149.24,28.7,4283.19,Approved
+INV00158,ClearView Janitorial,2025-11-15,hourly,38.0,58.5,2223.0,Approved
+INV00159,Staples Business Advantage,2025-06-07,per_unit,1.0,442.0,442.0,Approved
+INV00160,Hartwell Legal Advisors,2025-07-16,hourly,310.0,77.5,24025.0,Approved
+INV00161,OfficeMax Direct,2025-06-03,per_unit,1.0,348.0,348.0,Pending Review
+INV00162,OfficeMax Direct,2025-02-12,per_unit,1.0,652.0,791.8,Approved
+INV00163,Regional Courier Co,2025-04-04,per_shipment,14.53,105.0,1525.65,Approved
+INV00164,Hartwell Legal Advisors,2025-09-07,hourly,322.23,10.4,3351.19,Pending Review
+INV00165,Staples Business Advantage,2025-10-08,per_unit,1.0,143.0,143.0,Approved
+INV00166,Apex IT Consulting,2025-06-08,hourly,147.91,43.6,6448.88,Pending Review
+INV00167,Beacon Consulting Partners,2025-02-16,hourly,220.0,47.6,10472.0,Approved
+INV00168,Hartwell Legal Advisors,2025-08-14,hourly,310.0,41.1,12741.0,Approved
+INV00169,Swift Freight Logistics,2025-04-26,per_shipment,18.5,164.0,3034.0,Pending Review
+INV00170,Staples Business Advantage,2025-07-30,per_unit,1.0,689.0,689.0,Approved
+INV00171,ClearView Janitorial,2025-07-20,hourly,38.0,44.8,1702.4,Approved
+INV00172,Apex IT Consulting,2025-02-10,hourly,145.0,61.2,8874.0,Approved
+INV00173,Vantage Software Inc,2025-05-04,per_seat,42.0,173.0,7266.0,Approved
+INV00174,OfficeMax Direct,2025-12-18,per_unit,1.0,605.0,605.0,Approved
+INV00175,Regional Courier Co,2025-09-05,per_shipment,14.0,283.0,3962.0,Approved
+INV00176,Reliant Facilities Mgmt,2025-04-15,hourly,62.0,55.0,3501.01,Pending Review
+INV00177,Meridian Systems Group,2025-04-05,hourly,134.8,24.2,3262.16,Approved
+INV00178,OfficeMax Direct,2025-09-15,per_unit,1.0,283.0,283.0,Approved
+INV00179,Swift Freight Logistics,2025-03-01,per_shipment,18.5,160.0,2960.0,Approved
+INV00180,Vantage Software Inc,2025-03-29,per_seat,42.0,183.0,7686.0,Approved
+INV00181,Vantage Software Inc,2025-11-23,per_seat,42.0,65.0,2730.0,Approved
+INV00182,Swift Freight Logistics,2025-12-12,per_shipment,18.5,213.0,3940.5,Approved
+INV00183,Hartwell Legal Advisors,2025-04-09,hourly,310.0,5.2,1612.0,Approved
+INV00184,OfficeMax Direct,2025-12-10,per_unit,1.0,692.0,833.44,Approved
+INV00185,Hartwell Legal Advisors,2025-09-09,hourly,319.06,25.5,8136.03,Approved
+INV00186,Reliant Facilities Mgmt,2025-07-11,hourly,62.0,77.0,4774.0,Approved
+INV00187,Reliant Facilities Mgmt,2025-12-14,hourly,62.0,19.9,1233.8,Approved
+INV00188,Swift Freight Logistics,2025-04-26,per_shipment,19.0,97.0,1843.0,Approved
+INV00189,Regional Courier Co,2025-12-12,per_shipment,14.0,319.0,4466.0,Rejected
+INV00190,Swift Freight Logistics,2025-09-04,per_shipment,18.5,300.0,5550.0,Approved
+INV00191,Hartwell Legal Advisors,2025-07-12,hourly,310.0,66.4,20584.0,Approved
+INV00192,Staples Business Advantage,2025-03-16,per_unit,1.0,210.0,210.0,Approved
+INV00193,Staples Business Advantage,2025-03-25,per_unit,1.0,210.0,210.0,Approved
+INV00194,Hartwell Legal Advisors,2025-06-25,hourly,310.0,13.0,4030.0,Approved
+INV00195,Staples Business Advantage,2025-02-20,per_unit,1.0,136.0,165.95,Rejected
+INV00196,Swift Freight Logistics,2025-06-22,per_shipment,18.5,291.0,5383.5,Approved
+INV00197,Reliant Facilities Mgmt,2025-02-13,hourly,62.0,65.7,4073.4,Approved
+INV00198,Reliant Facilities Mgmt,2025-02-23,hourly,62.0,65.7,4073.4,Approved
+INV00199,Staples Business Advantage,2025-07-03,per_unit,1.0,548.0,548.0,Approved
+INV00200,Meridian Systems Group,2025-08-22,hourly,130.0,34.3,4459.0,Approved
+INV00201,Reliant Facilities Mgmt,2025-11-13,hourly,62.0,64.9,4023.8,Approved
+INV00202,Apex IT Consulting,2025-12-29,hourly,145.0,47.7,6916.5,Approved
+INV00203,CloudSuite Solutions,2025-10-14,per_seat,55.0,114.0,6270.0,Pending Review
+INV00204,Regional Courier Co,2025-08-11,per_shipment,14.0,251.2,3516.8,Pending Review
+INV00205,OfficeMax Direct,2025-06-10,per_unit,1.22,390.0,475.8,Pending Review
+INV00206,Swift Freight Logistics,2025-08-17,per_shipment,18.5,23.0,461.78,Approved
+INV00207,Swift Freight Logistics,2025-03-02,per_shipment,18.5,264.0,4884.0,Approved
+INV00208,Swift Freight Logistics,2025-03-10,per_shipment,18.5,264.0,4884.0,Approved
+INV00209,OfficeMax Direct,2025-09-27,per_unit,1.0,285.0,285.0,Pending Review
+INV00210,Staples Business Advantage,2025-10-07,per_unit,1.0,787.0,787.0,Approved
+INV00211,Staples Business Advantage,2025-10-15,per_unit,1.0,787.0,787.0,Approved
+INV00212,Vantage Software Inc,2025-07-24,per_seat,42.0,130.0,5460.0,Approved
+INV00213,Staples Business Advantage,2025-02-14,per_unit,1.0,652.0,652.0,Rejected
+INV00214,Beacon Consulting Partners,2025-04-08,hourly,220.0,35.6,7832.0,Approved
+INV00215,OfficeMax Direct,2025-01-10,per_unit,1.0,192.0,192.0,Approved
+INV00216,ClearView Janitorial,2025-11-03,hourly,39.06,34.2,1335.85,Approved
+INV00217,Hartwell Legal Advisors,2025-05-25,hourly,427.48,67.8,28983.14,Pending Review
+INV00218,Apex IT Consulting,2025-12-19,hourly,145.0,76.0,11020.0,Approved
+INV00219,Hartwell Legal Advisors,2025-06-26,hourly,310.0,8.7,2814.86,Approved
+INV00220,Apex IT Consulting,2025-10-04,hourly,145.0,72.0,10440.0,Approved
+INV00221,CloudSuite Solutions,2025-07-18,per_seat,55.0,85.0,4675.0,Approved
+INV00222,CloudSuite Solutions,2025-07-21,per_seat,55.0,85.0,4675.0,Approved
+INV00223,Reliant Facilities Mgmt,2025-11-18,hourly,62.0,56.2,3484.4,Approved
+INV00224,Staples Business Advantage,2025-01-22,per_unit,1.0,155.0,291.98,Approved
+INV00225,Reliant Facilities Mgmt,2025-09-19,hourly,62.0,68.5,4247.0,Approved
+INV00226,Apex IT Consulting,2025-02-12,hourly,152.43,23.7,3612.59,Approved
+INV00227,ClearView Janitorial,2025-07-14,hourly,39.14,40.1,1569.51,Approved
+INV00228,Swift Freight Logistics,2025-06-24,per_shipment,18.5,134.0,2479.0,Approved
+INV00229,Apex IT Consulting,2025-03-22,hourly,151.58,64.6,9792.07,Approved
+INV00230,CloudSuite Solutions,2025-03-26,per_seat,55.0,5.0,275.0,Approved
+INV00231,Reliant Facilities Mgmt,2025-02-06,hourly,62.0,14.9,923.8,Approved
+INV00232,Swift Freight Logistics,2025-12-03,per_shipment,18.5,304.0,5624.0,Pending Review
+INV00233,Swift Freight Logistics,2025-04-14,per_shipment,18.5,113.0,2090.5,Pending Review
+INV00234,Swift Freight Logistics,2025-04-21,per_shipment,18.5,113.0,2090.5,Approved
+INV00235,Staples Business Advantage,2025-03-08,per_unit,1.0,683.0,683.0,Approved
+INV00236,Reliant Facilities Mgmt,2025-06-02,hourly,62.0,31.3,1940.6,Pending Review
+INV00237,CloudSuite Solutions,2025-04-04,per_seat,67.94,228.0,15490.32,Approved
+INV00238,Reliant Facilities Mgmt,2025-05-06,hourly,62.0,44.2,2740.4,Approved
+INV00239,Hartwell Legal Advisors,2025-04-23,hourly,310.0,53.1,16461.0,Approved
+INV00240,Apex IT Consulting,2025-11-07,hourly,145.0,7.7,1116.5,Approved
+INV00241,Beacon Consulting Partners,2025-12-11,hourly,261.5,36.2,9466.3,Rejected
+INV00242,Hartwell Legal Advisors,2025-08-12,hourly,310.0,56.0,17360.0,Approved
+INV00243,Vantage Software Inc,2025-10-06,per_seat,42.0,15.0,630.0,Approved
+INV00244,Vantage Software Inc,2025-09-15,per_seat,42.0,114.0,4788.0,Approved
+INV00245,Meridian Systems Group,2025-05-26,hourly,130.0,72.3,9399.0,Approved
+INV00246,Swift Freight Logistics,2025-04-06,per_shipment,18.5,44.0,814.0,Approved
+INV00247,Swift Freight Logistics,2025-06-26,per_shipment,18.5,236.0,4366.0,Approved
+INV00248,Hartwell Legal Advisors,2025-07-03,hourly,310.0,56.8,17608.0,Approved
+INV00249,Vantage Software Inc,2025-04-06,per_seat,55.88,159.0,8884.92,Approved
+INV00250,CloudSuite Solutions,2025-02-10,per_seat,55.0,101.0,5555.0,Approved
+INV00251,Staples Business Advantage,2025-08-17,per_unit,1.0,703.0,703.0,Rejected
+INV00252,Beacon Consulting Partners,2025-07-16,hourly,220.0,78.5,17270.0,Approved
+INV00253,CloudSuite Solutions,2025-11-11,per_seat,55.0,214.0,11770.0,Approved
+INV00254,ClearView Janitorial,2025-07-11,hourly,38.0,26.7,1014.6,Approved
+INV00255,Swift Freight Logistics,2025-01-11,per_shipment,18.5,98.0,1813.0,Approved
+INV00256,Reliant Facilities Mgmt,2025-08-17,hourly,63.66,12.7,808.48,Approved
+INV00257,Meridian Systems Group,2025-01-16,hourly,137.41,19.7,2706.98,Approved
+INV00258,CloudSuite Solutions,2025-12-15,per_seat,55.0,106.0,5830.0,Approved
+INV00259,Beacon Consulting Partners,2025-01-09,hourly,230.37,47.2,10873.46,Approved
+INV00260,Apex IT Consulting,2025-03-10,hourly,145.0,40.7,5901.5,Approved
+INV00261,Staples Business Advantage,2025-11-30,per_unit,1.0,22.0,117.72,Approved
+INV00262,ClearView Janitorial,2025-03-07,hourly,38.0,63.3,2405.4,Approved
+INV00263,Swift Freight Logistics,2025-09-21,per_shipment,18.5,59.0,1091.5,Approved
+INV00264,Regional Courier Co,2025-07-22,per_shipment,14.43,44.0,634.92,Approved
+INV00265,Beacon Consulting Partners,2025-08-04,hourly,220.0,27.2,5984.0,Approved
+INV00266,Apex IT Consulting,2025-03-08,hourly,145.0,27.2,3944.0,Approved
+INV00267,Meridian Systems Group,2025-05-29,hourly,160.87,53.2,8558.28,Approved
+INV00268,Vantage Software Inc,2025-02-16,per_seat,42.0,179.0,7518.0,Approved
+INV00269,Hartwell Legal Advisors,2025-02-19,hourly,310.0,68.9,21359.0,Pending Review
+INV00270,Staples Business Advantage,2025-06-23,per_unit,1.0,584.0,611.07,Pending Review
+INV00271,Regional Courier Co,2025-12-04,per_shipment,17.32,82.0,1420.24,Approved
+INV00272,Meridian Systems Group,2025-03-15,hourly,130.0,30.7,3991.0,Approved
+INV00273,Staples Business Advantage,2025-08-23,per_unit,1.0,675.0,675.0,Approved
+INV00274,Meridian Systems Group,2025-05-13,hourly,130.0,37.9,4927.0,Approved
+INV00275,ClearView Janitorial,2025-02-08,hourly,38.0,37.0,1406.0,Approved
+INV00276,Reliant Facilities Mgmt,2025-02-06,hourly,62.0,20.3,1258.6,Approved
+INV00277,ClearView Janitorial,2025-04-03,hourly,38.0,40.8,1550.4,Approved
+INV00278,Hartwell Legal Advisors,2025-03-19,hourly,310.0,36.7,11377.0,Approved
+INV00279,Reliant Facilities Mgmt,2025-10-09,hourly,62.0,24.4,1512.8,Approved
+INV00280,Beacon Consulting Partners,2025-12-01,hourly,220.0,16.1,3542.0,Pending Review
+INV00281,OfficeMax Direct,2025-02-14,per_unit,1.0,475.0,475.0,Approved
+INV00282,Meridian Systems Group,2025-10-17,hourly,159.29,76.5,12185.68,Approved
+INV00283,OfficeMax Direct,2025-04-10,per_unit,1.0,708.0,708.0,Approved
+INV00284,OfficeMax Direct,2025-01-02,per_unit,1.0,676.0,743.23,Approved
+INV00285,Beacon Consulting Partners,2025-02-20,hourly,220.0,45.9,10098.0,Approved
+INV00286,Vantage Software Inc,2025-03-05,per_seat,42.0,219.0,9198.0,Approved
+INV00287,CloudSuite Solutions,2025-08-13,per_seat,55.0,5.0,275.0,Approved
+INV00288,Beacon Consulting Partners,2025-03-09,hourly,220.0,37.2,8324.47,Approved
+INV00289,Beacon Consulting Partners,2025-04-11,hourly,220.0,37.6,8272.0,Approved
+INV00290,Staples Business Advantage,2025-05-07,per_unit,1.0,163.0,163.0,Approved
+INV00291,Regional Courier Co,2025-04-05,per_shipment,14.0,299.0,4186.0,Approved
+INV00292,Apex IT Consulting,2025-10-13,hourly,145.0,13.3,1928.5,Approved
+INV00293,Meridian Systems Group,2025-08-17,hourly,130.0,12.2,1586.0,Approved
+INV00294,Vantage Software Inc,2025-10-26,per_seat,43.96,250.0,10990.0,Approved
+INV00295,Meridian Systems Group,2025-07-09,hourly,130.0,7.0,910.0,Approved
+INV00296,Vantage Software Inc,2025-03-08,per_seat,42.0,7.0,294.0,Rejected
+INV00297,Reliant Facilities Mgmt,2025-12-25,hourly,62.0,24.5,1519.0,Approved
+INV00298,Staples Business Advantage,2025-12-25,per_unit,1.28,270.0,345.6,Approved
+INV00299,Hartwell Legal Advisors,2025-09-25,hourly,310.0,4.0,1240.0,Approved
+INV00300,Regional Courier Co,2025-08-01,per_shipment,14.0,249.0,3486.0,Approved
+INV00301,Reliant Facilities Mgmt,2025-02-26,hourly,62.0,78.2,4848.4,Pending Review
+INV00302,Beacon Consulting Partners,2025-08-28,hourly,220.0,57.5,12650.0,Approved
+INV00303,OfficeMax Direct,2025-01-15,per_unit,1.0,30.0,30.0,Rejected
+INV00304,Apex IT Consulting,2025-09-06,hourly,145.0,58.4,8468.0,Approved
+INV00305,Reliant Facilities Mgmt,2025-07-24,hourly,62.0,65.4,4054.8,Approved
+INV00306,Staples Business Advantage,2025-03-18,per_unit,1.0,654.0,654.0,Approved
+INV00307,CloudSuite Solutions,2025-02-16,per_seat,55.0,163.0,8965.0,Approved
+INV00308,OfficeMax Direct,2025-02-13,per_unit,1.04,54.0,56.16,Approved
+INV00309,Hartwell Legal Advisors,2025-01-10,hourly,310.0,75.6,23436.0,Approved
+INV00310,Hartwell Legal Advisors,2025-03-08,hourly,310.0,15.8,4898.0,Approved
+INV00311,OfficeMax Direct,2025-01-06,per_unit,1.0,575.0,575.0,Pending Review
+INV00312,Meridian Systems Group,2025-09-09,hourly,130.0,77.5,10075.0,Approved
+INV00313,Beacon Consulting Partners,2025-01-25,hourly,220.0,77.2,16984.0,Approved
+INV00314,Meridian Systems Group,2025-04-26,hourly,130.0,49.8,6474.0,Approved
+INV00315,Vantage Software Inc,2025-06-02,per_seat,42.0,82.0,3444.0,Approved
+INV00316,OfficeMax Direct,2025-05-03,per_unit,1.0,89.0,89.0,Approved
+INV00317,Reliant Facilities Mgmt,2025-09-09,hourly,62.0,72.3,4482.6,Approved
+INV00318,OfficeMax Direct,2025-12-13,per_unit,1.0,852.9,852.9,Approved
+INV00319,Swift Freight Logistics,2025-06-23,per_shipment,18.5,147.0,2719.5,Approved
+INV00320,CloudSuite Solutions,2025-10-11,per_seat,55.0,161.3,8871.5,Approved
+INV00321,OfficeMax Direct,2025-10-31,per_unit,1.0,363.0,363.0,Pending Review
+INV00322,Reliant Facilities Mgmt,2025-03-22,hourly,62.0,34.8,2157.6,Approved
+INV00323,Meridian Systems Group,2025-10-14,hourly,133.84,74.1,9917.54,Approved
+INV00324,Beacon Consulting Partners,2025-07-11,hourly,220.0,51.0,11220.0,Approved
+INV00325,Beacon Consulting Partners,2025-07-14,hourly,220.0,51.0,11220.0,Approved
+INV00326,Hartwell Legal Advisors,2025-01-12,hourly,310.0,60.2,18662.0,Approved
+INV00327,Swift Freight Logistics,2025-08-30,per_shipment,18.5,186.0,3441.0,Pending Review
+INV00328,Hartwell Legal Advisors,2025-04-01,hourly,319.38,39.0,12455.82,Approved
+INV00329,Hartwell Legal Advisors,2025-04-24,hourly,310.0,30.1,9331.0,Approved
+INV00330,Apex IT Consulting,2025-04-04,hourly,145.0,8.1,1174.5,Approved
+INV00331,ClearView Janitorial,2025-02-06,hourly,38.0,15.5,589.0,Pending Review
+INV00332,Meridian Systems Group,2025-03-31,hourly,130.0,39.5,5281.36,Approved
+INV00333,Reliant Facilities Mgmt,2025-07-28,hourly,62.0,17.7,1097.4,Approved
+INV00334,Beacon Consulting Partners,2025-11-27,hourly,220.0,8.6,1892.0,Pending Review
+INV00335,Staples Business Advantage,2025-10-10,per_unit,1.0,122.0,122.0,Approved
+INV00336,Beacon Consulting Partners,2025-04-26,hourly,220.0,11.8,2596.0,Pending Review
+INV00337,OfficeMax Direct,2025-07-19,per_unit,1.04,655.0,681.2,Approved
+INV00338,Vantage Software Inc,2025-07-14,per_seat,42.0,240.9,10117.8,Pending Review
+INV00339,Meridian Systems Group,2025-09-15,hourly,130.0,70.8,9204.0,Approved
+INV00340,Beacon Consulting Partners,2025-10-09,hourly,220.0,77.8,17116.0,Approved
+INV00341,CloudSuite Solutions,2025-03-21,per_seat,55.0,8.0,440.0,Approved
+INV00342,Beacon Consulting Partners,2025-04-05,hourly,220.0,71.5,15730.0,Approved
+INV00343,Swift Freight Logistics,2025-03-05,per_shipment,18.5,84.0,1554.0,Rejected
+INV00344,Swift Freight Logistics,2025-10-27,per_shipment,18.5,222.0,4107.0,Approved
+INV00345,Apex IT Consulting,2025-02-28,hourly,145.0,20.9,3030.5,Approved
+INV00346,Staples Business Advantage,2025-01-31,per_unit,1.0,677.0,677.0,Pending Review
+INV00347,Reliant Facilities Mgmt,2025-07-14,hourly,62.0,77.0,4774.0,Approved
+INV00348,Reliant Facilities Mgmt,2025-07-18,hourly,62.0,77.0,4774.0,Pending Review
+INV00349,ClearView Janitorial,2025-03-29,hourly,38.0,78.1,3033.02,Approved
+INV00350,Staples Business Advantage,2025-11-23,per_unit,1.16,612.0,709.92,Approved
+INV00351,Apex IT Consulting,2025-12-18,hourly,145.0,63.8,9251.0,Approved
+INV00352,Swift Freight Logistics,2025-11-18,per_shipment,18.5,72.0,1332.0,Approved
+INV00353,Swift Freight Logistics,2025-11-28,per_shipment,18.5,72.0,1332.0,Pending Review
+INV00354,Reliant Facilities Mgmt,2025-01-11,hourly,62.0,18.9,1171.8,Approved
+INV00355,OfficeMax Direct,2025-02-26,per_unit,1.0,189.0,189.0,Approved
+INV00356,OfficeMax Direct,2025-08-16,per_unit,1.0,200.0,200.0,Approved
+INV00357,Hartwell Legal Advisors,2025-08-18,hourly,310.0,24.0,7440.0,Approved
+INV00358,CloudSuite Solutions,2025-03-11,per_seat,55.0,95.0,5225.0,Approved
+INV00359,ClearView Janitorial,2025-09-01,hourly,52.89,74.8,3956.17,Approved
+INV00360,CloudSuite Solutions,2025-08-20,per_seat,55.0,92.0,5060.0,Approved
+INV00361,CloudSuite Solutions,2025-04-08,per_seat,55.0,23.0,1265.0,Approved
+INV00362,Beacon Consulting Partners,2025-09-04,hourly,220.0,53.5,11770.0,Approved
+INV00363,OfficeMax Direct,2025-04-29,per_unit,1.05,468.0,491.4,Approved
+INV00364,Swift Freight Logistics,2025-11-17,per_shipment,18.5,46.0,851.0,Approved
+INV00365,Beacon Consulting Partners,2025-03-24,hourly,220.0,15.7,3454.0,Pending Review
+INV00366,OfficeMax Direct,2025-06-25,per_unit,1.0,426.0,426.0,Pending Review
+INV00367,OfficeMax Direct,2025-10-11,per_unit,1.0,661.0,661.0,Approved
+INV00368,Hartwell Legal Advisors,2025-05-16,hourly,310.0,24.9,7719.0,Approved
+INV00369,Regional Courier Co,2025-03-18,per_shipment,14.0,313.0,4382.0,Pending Review
+INV00370,Meridian Systems Group,2025-10-23,hourly,179.32,76.8,13771.78,Approved
+INV00371,Vantage Software Inc,2025-07-29,per_seat,42.0,183.0,7686.0,Pending Review
+INV00372,Apex IT Consulting,2025-10-02,hourly,145.0,47.1,6829.5,Approved
+INV00373,Regional Courier Co,2025-03-22,per_shipment,14.0,256.0,3584.0,Pending Review
+INV00374,CloudSuite Solutions,2025-05-18,per_seat,55.0,36.0,1980.0,Approved
+INV00375,CloudSuite Solutions,2025-05-25,per_seat,55.0,36.0,1980.0,Approved
+INV00376,Regional Courier Co,2025-09-27,per_shipment,14.0,393.0,5502.0,Pending Review
+INV00377,Vantage Software Inc,2025-12-04,per_seat,42.0,8.0,336.0,Approved
+INV00378,CloudSuite Solutions,2025-05-31,per_seat,55.0,246.0,13530.0,Approved
+INV00379,Beacon Consulting Partners,2025-01-31,hourly,220.0,47.6,10472.0,Approved
+INV00380,Beacon Consulting Partners,2025-02-09,hourly,220.0,47.6,10472.0,Pending Review
+INV00381,Vantage Software Inc,2025-01-14,per_seat,42.0,116.0,4872.0,Approved
+INV00382,Apex IT Consulting,2025-12-30,hourly,145.0,28.2,4089.0,Approved
+INV00383,Staples Business Advantage,2025-02-13,per_unit,1.0,764.0,764.0,Pending Review
+INV00384,Beacon Consulting Partners,2025-12-27,hourly,220.0,73.6,16192.0,Approved
+INV00385,ClearView Janitorial,2025-01-24,hourly,38.0,12.4,471.2,Approved
+INV00386,OfficeMax Direct,2025-11-03,per_unit,1.0,393.0,393.0,Approved
+INV00387,Staples Business Advantage,2025-07-12,per_unit,1.03,725.0,746.75,Approved
+INV00388,Meridian Systems Group,2025-10-03,hourly,130.0,77.6,10088.0,Approved
+INV00389,Vantage Software Inc,2025-12-28,per_seat,42.0,225.0,9450.0,Pending Review
+INV00390,CloudSuite Solutions,2025-04-08,per_seat,55.0,84.0,4620.0,Pending Review
+INV00391,Beacon Consulting Partners,2025-06-15,hourly,233.16,27.7,6458.53,Rejected
+INV00392,Reliant Facilities Mgmt,2025-07-28,hourly,62.0,40.9,2535.8,Approved
+INV00393,Vantage Software Inc,2025-05-28,per_seat,42.0,199.0,8358.0,Pending Review
+INV00394,Vantage Software Inc,2025-10-03,per_seat,42.0,41.0,1722.0,Approved
+INV00395,Meridian Systems Group,2025-08-28,hourly,130.0,57.6,7488.0,Approved
+INV00396,Swift Freight Logistics,2025-02-06,per_shipment,18.5,395.0,7307.5,Approved
+INV00397,OfficeMax Direct,2025-09-27,per_unit,1.0,292.0,292.0,Approved
+INV00398,OfficeMax Direct,2025-02-20,per_unit,1.0,91.0,91.0,Approved
+INV00399,Reliant Facilities Mgmt,2025-11-21,hourly,62.0,38.9,2411.8,Approved
+INV00400,Meridian Systems Group,2025-09-11,hourly,130.0,21.0,2730.0,Approved
+INV00401,Hartwell Legal Advisors,2025-04-03,hourly,310.0,73.9,22909.0,Approved
+INV00402,Vantage Software Inc,2025-10-24,per_seat,44.12,68.0,3000.16,Pending Review
+INV00403,Reliant Facilities Mgmt,2025-01-12,hourly,62.0,25.9,1605.8,Rejected
+INV00404,Regional Courier Co,2025-01-12,per_shipment,14.0,174.0,2436.0,Approved
+INV00405,Beacon Consulting Partners,2025-11-02,hourly,220.0,35.4,7788.0,Approved
+INV00406,ClearView Janitorial,2025-04-29,hourly,38.0,29.7,1128.6,Approved
+INV00407,Hartwell Legal Advisors,2025-02-13,hourly,310.0,34.0,10540.0,Approved
+INV00408,Meridian Systems Group,2025-07-26,hourly,130.0,55.7,7241.0,Approved
+INV00409,Beacon Consulting Partners,2025-11-22,hourly,220.0,72.5,15950.0,Approved
+INV00410,CloudSuite Solutions,2025-10-29,per_seat,55.0,139.0,7645.0,Approved
+INV00411,ClearView Janitorial,2025-06-30,hourly,38.0,58.2,2211.6,Approved
+INV00412,Apex IT Consulting,2025-01-23,hourly,145.0,11.9,1725.5,Approved
+INV00413,Beacon Consulting Partners,2025-05-30,hourly,220.0,19.5,4290.0,Approved
+INV00414,Vantage Software Inc,2025-11-28,per_seat,42.0,16.0,672.0,Approved
+INV00415,OfficeMax Direct,2025-04-27,per_unit,1.35,420.0,567.0,Approved
+INV00416,Apex IT Consulting,2025-04-08,hourly,145.0,76.9,11150.5,Approved
+INV00417,Staples Business Advantage,2025-05-22,per_unit,1.0,433.6,433.6,Approved
+INV00418,ClearView Janitorial,2025-05-21,hourly,48.74,56.9,2773.31,Approved
+INV00419,Swift Freight Logistics,2025-08-12,per_shipment,18.5,220.0,4070.0,Approved
+INV00420,Staples Business Advantage,2025-02-07,per_unit,1.0,366.0,366.0,Rejected
+INV00421,Swift Freight Logistics,2025-08-11,per_shipment,18.5,308.0,5698.0,Approved
+INV00422,ClearView Janitorial,2025-05-14,hourly,38.0,57.8,2343.28,Approved
+INV00423,Hartwell Legal Advisors,2025-07-10,hourly,310.0,14.5,4524.49,Approved
+INV00424,CloudSuite Solutions,2025-12-15,per_seat,55.0,60.0,3443.66,Approved
+INV00425,Apex IT Consulting,2025-03-01,hourly,153.02,21.7,3320.53,Approved
+INV00426,Reliant Facilities Mgmt,2025-03-23,hourly,62.0,10.5,651.0,Pending Review
+INV00427,Reliant Facilities Mgmt,2025-11-04,hourly,62.0,79.7,4941.4,Approved
+INV00428,CloudSuite Solutions,2025-03-23,per_seat,55.0,152.0,8360.0,Approved
+INV00429,Meridian Systems Group,2025-10-02,hourly,130.0,15.1,1963.0,Approved
+INV00430,Regional Courier Co,2025-08-09,per_shipment,14.0,109.0,1602.93,Approved
+INV00431,Vantage Software Inc,2025-11-20,per_seat,42.0,152.0,6384.0,Rejected
+INV00432,Swift Freight Logistics,2025-03-22,per_shipment,21.62,357.0,7718.34,Approved
+INV00433,Hartwell Legal Advisors,2025-02-24,hourly,310.0,60.5,18755.0,Rejected
+INV00434,Hartwell Legal Advisors,2025-02-28,hourly,310.0,60.5,18755.0,Approved
+INV00435,Meridian Systems Group,2025-08-27,hourly,137.0,6.0,822.0,Approved
+INV00436,OfficeMax Direct,2025-05-11,per_unit,1.17,57.0,66.69,Approved
+INV00437,Apex IT Consulting,2025-09-08,hourly,145.0,48.1,6974.5,Approved
+INV00438,Hartwell Legal Advisors,2025-05-27,hourly,310.0,72.8,22568.0,Pending Review
+INV00439,ClearView Janitorial,2025-02-12,hourly,38.0,63.2,2401.6,Approved
+INV00440,Hartwell Legal Advisors,2025-11-06,hourly,310.0,15.7,4867.0,Approved
+INV00441,Hartwell Legal Advisors,2025-01-07,hourly,310.0,17.0,5270.0,Approved
+INV00442,Hartwell Legal Advisors,2025-01-10,hourly,310.0,17.0,5270.0,Approved
+INV00443,Reliant Facilities Mgmt,2025-04-07,hourly,65.33,77.4,5056.54,Approved
+INV00444,Staples Business Advantage,2025-02-06,per_unit,1.0,726.3,726.3,Approved
+INV00445,Meridian Systems Group,2025-10-03,hourly,130.0,39.3,5109.0,Approved
+INV00446,Vantage Software Inc,2025-10-09,per_seat,42.0,58.0,2436.0,Approved
+INV00447,Swift Freight Logistics,2025-10-18,per_shipment,18.5,329.0,6086.5,Pending Review
+INV00448,OfficeMax Direct,2025-01-22,per_unit,1.05,724.0,760.2,Approved
+INV00449,Vantage Software Inc,2025-01-26,per_seat,42.0,146.0,6132.0,Approved
+INV00450,ClearView Janitorial,2025-02-22,hourly,38.0,45.1,1713.8,Approved
+INV00451,ClearView Janitorial,2025-02-25,hourly,38.0,45.1,1713.8,Pending Review
+INV00452,OfficeMax Direct,2025-07-19,per_unit,1.0,376.0,376.0,Approved
+INV00453,OfficeMax Direct,2025-11-26,per_unit,1.0,487.0,487.0,Approved
+INV00454,Meridian Systems Group,2025-07-07,hourly,130.0,71.8,9334.0,Rejected
+INV00455,Hartwell Legal Advisors,2025-04-07,hourly,368.24,51.9,19111.66,Approved
+INV00456,Regional Courier Co,2025-09-09,per_shipment,14.0,126.0,1764.0,Pending Review
+INV00457,Staples Business Advantage,2025-03-30,per_unit,1.0,419.0,419.0,Approved
+INV00458,Meridian Systems Group,2025-05-06,hourly,173.29,66.0,11437.14,Approved
+INV00459,CloudSuite Solutions,2025-10-06,per_seat,55.0,209.0,11495.0,Approved
+INV00460,ClearView Janitorial,2025-01-06,hourly,38.0,20.5,779.0,Rejected
+INV00461,Swift Freight Logistics,2025-11-10,per_shipment,19.5,173.0,3373.5,Approved
+INV00462,Apex IT Consulting,2025-08-25,hourly,153.62,77.3,11874.83,Approved
+INV00463,Swift Freight Logistics,2025-03-09,per_shipment,18.5,214.0,3959.0,Approved
+INV00464,Beacon Consulting Partners,2025-01-08,hourly,220.0,65.1,14322.0,Approved
+INV00465,Beacon Consulting Partners,2025-01-14,hourly,220.0,65.1,14322.0,Approved
+INV00466,Reliant Facilities Mgmt,2025-06-22,hourly,62.0,78.9,4891.8,Approved
+INV00467,Staples Business Advantage,2025-08-22,per_unit,1.0,53.0,53.0,Approved
+INV00468,OfficeMax Direct,2025-02-16,per_unit,1.0,349.3,349.3,Approved
+INV00469,Beacon Consulting Partners,2025-06-21,hourly,220.0,46.8,10296.0,Approved
+INV00470,Beacon Consulting Partners,2025-06-28,hourly,220.0,46.8,10296.0,Approved
+INV00471,Staples Business Advantage,2025-08-23,per_unit,1.0,347.0,347.0,Pending Review
+INV00472,Reliant Facilities Mgmt,2025-09-10,hourly,62.0,14.7,911.4,Approved
+INV00473,Swift Freight Logistics,2025-09-26,per_shipment,18.5,312.0,5772.0,Approved
+INV00474,Regional Courier Co,2025-08-11,per_shipment,14.0,178.0,2492.0,Approved
+INV00475,Regional Courier Co,2025-08-21,per_shipment,14.0,178.0,2492.0,Approved
+INV00476,Vantage Software Inc,2025-05-24,per_seat,42.0,199.0,8358.0,Approved
+INV00477,Vantage Software Inc,2025-01-27,per_seat,42.0,36.0,1512.0,Pending Review
+INV00478,CloudSuite Solutions,2025-10-04,per_seat,56.92,31.0,1764.52,Approved
+INV00479,Beacon Consulting Partners,2025-10-04,hourly,220.0,77.1,16962.0,Approved
+INV00480,Reliant Facilities Mgmt,2025-12-08,hourly,64.94,47.4,3078.16,Pending Review
+INV00481,Apex IT Consulting,2025-08-09,hourly,145.0,64.5,9352.5,Approved
+INV00482,ClearView Janitorial,2025-04-15,hourly,38.0,76.2,2895.6,Approved
+INV00483,Swift Freight Logistics,2025-01-14,per_shipment,18.5,279.0,5161.5,Approved
+INV00484,Apex IT Consulting,2025-06-08,hourly,145.0,58.1,8424.5,Approved
+INV00485,Vantage Software Inc,2025-07-09,per_seat,42.0,33.0,1386.0,Pending Review
+INV00486,ClearView Janitorial,2025-12-31,hourly,38.0,26.7,1014.6,Approved
+INV00487,OfficeMax Direct,2025-11-17,per_unit,1.0,273.0,273.0,Approved
+INV00488,Staples Business Advantage,2025-03-11,per_unit,1.0,760.0,760.0,Approved
+INV00489,CloudSuite Solutions,2025-08-29,per_seat,55.0,26.0,1430.0,Approved
+INV00490,Staples Business Advantage,2025-06-04,per_unit,1.0,373.0,373.0,Pending Review
+INV00491,Hartwell Legal Advisors,2025-12-22,hourly,310.0,42.4,13144.0,Approved
+INV00492,Apex IT Consulting,2025-06-28,hourly,145.0,30.1,4364.5,Approved
+INV00493,Vantage Software Inc,2025-11-23,per_seat,42.0,239.0,10038.0,Approved
+INV00494,Apex IT Consulting,2025-08-29,hourly,145.0,60.1,8714.5,Approved
+INV00495,CloudSuite Solutions,2025-03-03,per_seat,55.0,161.0,8855.0,Approved
+INV00496,Reliant Facilities Mgmt,2025-03-16,hourly,62.0,59.3,3676.6,Approved
+INV00497,Swift Freight Logistics,2025-03-02,per_shipment,18.5,200.0,3700.0,Approved
+INV00498,OfficeMax Direct,2025-10-19,per_unit,1.0,771.0,771.0,Approved
+INV00499,Swift Freight Logistics,2025-08-06,per_shipment,18.5,214.0,3959.0,Approved
+INV00500,Swift Freight Logistics,2025-08-10,per_shipment,18.5,214.0,3959.0,Pending Review
+INV00501,Beacon Consulting Partners,2025-12-02,hourly,220.0,59.6,13112.0,Pending Review
+INV00502,Apex IT Consulting,2025-06-15,hourly,153.19,47.1,7215.25,Approved
+INV00503,Vantage Software Inc,2025-06-30,per_seat,42.0,160.0,6720.0,Approved
+INV00504,OfficeMax Direct,2025-11-22,per_unit,1.17,280.0,327.6,Approved
+INV00505,ClearView Janitorial,2025-07-27,hourly,38.0,72.5,2755.0,Approved
+INV00506,Hartwell Legal Advisors,2025-09-01,hourly,310.0,17.6,5456.0,Pending Review
+INV00507,Vantage Software Inc,2025-12-20,per_seat,42.0,79.0,3318.0,Pending Review
+INV00508,Vantage Software Inc,2025-06-24,per_seat,42.0,187.5,7875.0,Approved
+INV00509,Meridian Systems Group,2025-08-31,hourly,130.0,68.2,8866.0,Rejected
+INV00510,CloudSuite Solutions,2025-11-06,per_seat,55.0,21.0,1155.0,Approved
+INV00511,OfficeMax Direct,2025-10-30,per_unit,1.0,558.0,558.0,Approved
+INV00512,Vantage Software Inc,2025-01-30,per_seat,42.0,186.0,7812.0,Approved
+INV00513,Swift Freight Logistics,2025-04-20,per_shipment,18.5,261.0,4828.5,Approved
+INV00514,Swift Freight Logistics,2025-01-04,per_shipment,18.5,197.0,3644.5,Approved
+INV00515,Meridian Systems Group,2025-10-07,hourly,164.9,55.2,9102.48,Pending Review
+INV00516,Hartwell Legal Advisors,2025-01-03,hourly,310.0,17.4,5394.0,Approved
+INV00517,OfficeMax Direct,2025-04-29,per_unit,1.0,111.0,111.0,Approved
+INV00518,ClearView Janitorial,2025-03-22,hourly,38.0,41.9,1592.2,Approved
+INV00519,Regional Courier Co,2025-09-27,per_shipment,14.74,231.0,3404.94,Approved
+INV00520,ClearView Janitorial,2025-12-16,hourly,38.0,57.6,2188.8,Approved
+INV00521,Staples Business Advantage,2025-10-19,per_unit,1.0,72.0,117.9,Approved
+INV00522,ClearView Janitorial,2025-12-17,hourly,38.0,38.8,1474.4,Approved
+INV00523,ClearView Janitorial,2025-09-03,hourly,38.0,26.4,1003.2,Approved
+INV00524,Apex IT Consulting,2025-12-08,hourly,145.0,62.6,9077.0,Approved
+INV00525,OfficeMax Direct,2025-11-08,per_unit,1.0,498.0,498.0,Approved
+INV00526,OfficeMax Direct,2025-11-11,per_unit,1.0,498.0,498.0,Pending Review
+INV00527,Beacon Consulting Partners,2025-08-12,hourly,220.0,5.6,1232.0,Approved
+INV00528,Vantage Software Inc,2025-11-01,per_seat,42.0,170.0,7288.7,Approved
+INV00529,Beacon Consulting Partners,2025-10-18,hourly,220.0,74.8,16456.0,Pending Review
+INV00530,CloudSuite Solutions,2025-08-11,per_seat,55.0,159.0,8745.0,Approved
+INV00531,Hartwell Legal Advisors,2025-08-31,hourly,310.0,65.1,20181.0,Approved
+INV00532,Swift Freight Logistics,2025-11-03,per_shipment,18.5,354.0,6549.0,Rejected
+INV00533,Hartwell Legal Advisors,2025-09-22,hourly,310.0,6.5,2015.0,Approved
+INV00534,Meridian Systems Group,2025-11-19,hourly,130.0,74.0,9620.0,Approved
+INV00535,Apex IT Consulting,2025-12-21,hourly,145.0,7.1,1098.98,Approved
+INV00536,Apex IT Consulting,2025-10-29,hourly,145.0,38.4,5568.0,Approved
+INV00537,OfficeMax Direct,2025-01-30,per_unit,1.04,231.0,240.24,Approved
+INV00538,CloudSuite Solutions,2025-03-13,per_seat,55.0,176.0,9680.0,Approved
+INV00539,Hartwell Legal Advisors,2025-10-17,hourly,310.0,64.8,20088.0,Approved
+INV00540,CloudSuite Solutions,2025-11-24,per_seat,55.0,61.0,3355.0,Pending Review
+INV00541,Regional Courier Co,2025-02-25,per_shipment,14.0,89.0,1246.0,Approved
+INV00542,Hartwell Legal Advisors,2025-03-31,hourly,325.02,7.5,2437.65,Pending Review
+INV00543,Reliant Facilities Mgmt,2025-03-03,hourly,62.0,15.7,1067.54,Approved
+INV00544,Apex IT Consulting,2025-09-12,hourly,145.0,28.1,4074.5,Approved
+INV00545,OfficeMax Direct,2025-05-09,per_unit,1.35,771.0,1040.85,Approved
+INV00546,Swift Freight Logistics,2025-08-24,per_shipment,18.5,388.0,7178.0,Approved
+INV00547,Staples Business Advantage,2025-07-16,per_unit,1.06,302.0,320.12,Approved
+INV00548,CloudSuite Solutions,2025-06-20,per_seat,55.0,62.0,3410.0,Approved
+INV00549,Beacon Consulting Partners,2025-05-27,hourly,220.0,79.2,17424.0,Approved
+INV00550,Staples Business Advantage,2025-04-30,per_unit,1.0,374.0,374.0,Approved
+INV00551,Swift Freight Logistics,2025-07-06,per_shipment,18.5,112.1,2073.85,Approved
+INV00552,Hartwell Legal Advisors,2025-07-04,hourly,310.0,19.3,5983.0,Pending Review
+INV00553,CloudSuite Solutions,2025-07-31,per_seat,55.0,205.0,11275.0,Approved
+INV00554,CloudSuite Solutions,2025-11-20,per_seat,55.0,33.0,1815.0,Approved
+INV00555,OfficeMax Direct,2025-02-21,per_unit,1.0,358.0,358.0,Approved
+INV00556,ClearView Janitorial,2025-06-14,hourly,39.3,34.7,1363.71,Approved
+INV00557,Meridian Systems Group,2025-01-22,hourly,130.0,51.1,6643.0,Approved
+INV00558,Regional Courier Co,2025-04-22,per_shipment,14.0,40.0,560.0,Approved
+INV00559,ClearView Janitorial,2025-06-28,hourly,38.0,49.2,1869.6,Approved
+INV00560,Swift Freight Logistics,2025-07-07,per_shipment,22.23,137.0,3045.51,Approved
+INV00561,Regional Courier Co,2025-08-25,per_shipment,14.0,183.0,2562.0,Approved
+INV00562,Beacon Consulting Partners,2025-09-29,hourly,220.0,41.7,9174.0,Approved
+INV00563,Apex IT Consulting,2025-09-13,hourly,145.0,39.0,5655.0,Approved
+INV00564,Beacon Consulting Partners,2025-12-24,hourly,220.0,19.7,4334.0,Approved
+INV00565,OfficeMax Direct,2025-02-01,per_unit,1.0,753.0,753.0,Approved
+INV00566,OfficeMax Direct,2025-09-04,per_unit,1.0,212.0,212.0,Approved
+INV00567,Beacon Consulting Partners,2025-12-23,hourly,220.0,46.6,10252.0,Pending Review
+INV00568,Meridian Systems Group,2025-08-14,hourly,130.0,58.4,7692.93,Approved
+INV00569,Hartwell Legal Advisors,2025-05-31,hourly,310.0,28.2,8742.0,Pending Review
+INV00570,Staples Business Advantage,2025-10-25,per_unit,1.0,479.0,479.0,Approved
+INV00571,CloudSuite Solutions,2025-08-10,per_seat,55.0,113.0,6215.0,Approved
+INV00572,Reliant Facilities Mgmt,2025-02-25,hourly,62.0,21.3,1320.6,Pending Review
+INV00573,CloudSuite Solutions,2025-05-31,per_seat,55.0,37.0,2035.0,Rejected
+INV00574,Apex IT Consulting,2025-12-24,hourly,145.0,66.6,9657.0,Approved
+INV00575,Staples Business Advantage,2025-12-13,per_unit,1.0,531.0,531.0,Approved
+INV00576,Hartwell Legal Advisors,2025-07-30,hourly,310.0,68.9,21359.0,Approved
+INV00577,Vantage Software Inc,2025-09-02,per_seat,42.0,275.9,11587.8,Approved
+INV00578,OfficeMax Direct,2025-11-04,per_unit,1.0,622.0,622.0,Approved
+INV00579,Beacon Consulting Partners,2025-02-21,hourly,220.0,33.3,7326.0,Approved
+INV00580,Reliant Facilities Mgmt,2025-11-20,hourly,62.0,69.6,4315.2,Approved
+INV00581,Vantage Software Inc,2025-10-29,per_seat,42.0,163.0,6846.0,Approved
+INV00582,Swift Freight Logistics,2025-03-27,per_shipment,18.5,20.0,370.0,Approved
+INV00583,OfficeMax Direct,2025-12-17,per_unit,1.0,504.0,504.0,Approved
+INV00584,CloudSuite Solutions,2025-07-15,per_seat,55.0,46.0,2530.0,Approved
+INV00585,Staples Business Advantage,2025-01-15,per_unit,1.03,723.0,744.69,Approved
+INV00586,CloudSuite Solutions,2025-04-11,per_seat,55.0,125.0,6875.0,Pending Review
+INV00587,Reliant Facilities Mgmt,2025-03-16,hourly,62.0,35.7,2213.4,Approved
+INV00588,ClearView Janitorial,2025-04-12,hourly,38.0,26.0,988.0,Pending Review
+INV00589,Hartwell Legal Advisors,2025-05-31,hourly,310.0,37.7,11687.0,Approved
+INV00590,Swift Freight Logistics,2025-11-23,per_shipment,18.5,333.0,6160.5,Approved
+INV00591,CloudSuite Solutions,2025-12-07,per_seat,55.0,89.0,5030.14,Pending Review
+INV00592,Staples Business Advantage,2025-03-16,per_unit,1.0,750.0,750.0,Approved
+INV00593,Hartwell Legal Advisors,2025-05-29,hourly,310.0,88.3,27373.0,Approved
+INV00594,Meridian Systems Group,2025-06-15,hourly,130.0,37.0,4810.0,Approved
+INV00595,Beacon Consulting Partners,2025-08-11,hourly,220.0,38.1,8382.0,Approved
+INV00596,Vantage Software Inc,2025-04-16,per_seat,42.0,27.0,1134.0,Approved
+INV00597,Regional Courier Co,2025-08-23,per_shipment,14.51,179.0,2597.29,Approved
+INV00598,Staples Business Advantage,2025-11-17,per_unit,1.0,280.0,280.0,Approved
+INV00599,Apex IT Consulting,2025-04-04,hourly,152.97,5.2,795.44,Approved
+INV00600,Beacon Consulting Partners,2025-06-21,hourly,220.0,79.7,17534.0,Approved
+INV00601,Beacon Consulting Partners,2025-06-27,hourly,220.0,79.7,17534.0,Pending Review
+INV00602,Apex IT Consulting,2025-12-10,hourly,200.02,11.3,2260.23,Pending Review
+INV00603,Meridian Systems Group,2025-01-16,hourly,175.07,56.3,9856.44,Approved
+INV00604,Vantage Software Inc,2025-05-25,per_seat,42.0,138.0,5796.0,Approved
+INV00605,Hartwell Legal Advisors,2025-01-02,hourly,310.0,42.6,13206.0,Approved
+INV00606,Swift Freight Logistics,2025-11-23,per_shipment,19.21,12.0,230.52,Approved
+INV00607,Vantage Software Inc,2025-06-01,per_seat,42.0,244.6,10273.2,Approved
+INV00608,Swift Freight Logistics,2025-06-01,per_shipment,18.5,170.0,3145.0,Approved
+INV00609,Reliant Facilities Mgmt,2025-02-10,hourly,62.0,57.7,3577.4,Approved
+INV00610,Apex IT Consulting,2025-02-28,hourly,145.0,66.8,9686.0,Approved
+INV00611,Reliant Facilities Mgmt,2025-05-16,hourly,62.0,8.9,551.8,Approved
+INV00612,OfficeMax Direct,2025-06-19,per_unit,1.0,707.0,707.0,Approved
+INV00613,ClearView Janitorial,2025-11-09,hourly,47.96,39.6,1899.22,Approved
+INV00614,Staples Business Advantage,2025-10-13,per_unit,1.04,304.0,316.16,Approved
+INV00615,Apex IT Consulting,2025-03-16,hourly,145.0,54.9,7960.5,Approved
+INV00616,OfficeMax Direct,2025-06-03,per_unit,1.0,496.0,496.0,Approved
+INV00617,CloudSuite Solutions,2025-03-12,per_seat,69.33,61.0,4229.13,Approved
+INV00618,Hartwell Legal Advisors,2025-12-04,hourly,310.0,24.6,7626.0,Approved
+INV00619,CloudSuite Solutions,2025-07-11,per_seat,55.0,98.0,5390.0,Pending Review
+INV00620,Hartwell Legal Advisors,2025-07-14,hourly,323.47,55.2,17855.54,Approved
+INV00621,Beacon Consulting Partners,2025-12-30,hourly,220.0,54.5,11990.0,Approved
+INV00622,OfficeMax Direct,2025-04-21,per_unit,1.0,153.0,153.0,Approved
+INV00623,Hartwell Legal Advisors,2025-01-25,hourly,310.0,25.4,7874.0,Approved
+INV00624,Hartwell Legal Advisors,2025-07-21,hourly,415.3,73.8,30649.14,Approved
+INV00625,Vantage Software Inc,2025-02-23,per_seat,42.0,209.0,8778.0,Approved
+INV00626,Staples Business Advantage,2025-02-28,per_unit,1.0,486.0,486.0,Approved
+INV00627,OfficeMax Direct,2025-07-05,per_unit,1.0,696.0,696.0,Approved
+INV00628,CloudSuite Solutions,2025-07-18,per_seat,55.0,114.0,6270.0,Approved
+INV00629,Staples Business Advantage,2025-11-28,per_unit,1.0,193.0,193.0,Approved
+INV00630,Hartwell Legal Advisors,2025-02-25,hourly,310.0,90.0,27900.0,Approved
+INV00631,Vantage Software Inc,2025-06-03,per_seat,57.17,57.0,3258.69,Approved
+INV00632,Apex IT Consulting,2025-03-21,hourly,145.0,23.9,3465.5,Approved
+INV00633,Reliant Facilities Mgmt,2025-10-29,hourly,62.0,27.1,1680.2,Approved
+INV00634,Swift Freight Logistics,2025-04-09,per_shipment,18.5,396.0,7326.0,Approved
+INV00635,OfficeMax Direct,2025-02-21,per_unit,1.05,309.0,324.45,Approved
+INV00636,Regional Courier Co,2025-10-11,per_shipment,14.0,125.0,1750.0,Approved
+INV00637,Apex IT Consulting,2025-01-01,hourly,145.0,72.0,10440.0,Approved
+INV00638,Regional Courier Co,2025-09-05,per_shipment,14.78,311.0,4596.58,Pending Review
+INV00639,Vantage Software Inc,2025-11-30,per_seat,42.0,227.0,9534.0,Approved
+INV00640,OfficeMax Direct,2025-04-10,per_unit,1.0,141.0,141.0,Approved
+INV00641,Staples Business Advantage,2025-05-31,per_unit,1.0,207.5,207.5,Approved
+INV00642,Meridian Systems Group,2025-09-02,hourly,130.0,10.9,1417.0,Approved
+INV00643,Staples Business Advantage,2025-10-04,per_unit,1.0,354.0,354.0,Approved
+INV00644,Hartwell Legal Advisors,2025-03-21,hourly,310.0,39.4,12214.0,Approved
+INV00645,Vantage Software Inc,2025-07-07,per_seat,43.5,78.0,3393.0,Approved
+INV00646,Reliant Facilities Mgmt,2025-09-06,hourly,62.0,29.2,1810.4,Approved
+INV00647,OfficeMax Direct,2025-11-16,per_unit,1.06,364.0,385.84,Approved
+INV00648,OfficeMax Direct,2025-10-14,per_unit,1.0,439.0,439.0,Approved
+INV00649,Vantage Software Inc,2025-07-26,per_seat,42.0,42.0,1764.0,Approved
+INV00650,Beacon Consulting Partners,2025-02-25,hourly,220.0,52.6,11572.0,Approved
+INV00651,Beacon Consulting Partners,2025-01-25,hourly,220.0,49.7,10934.0,Approved
+INV00652,Meridian Systems Group,2025-04-22,hourly,130.0,29.7,3861.0,Approved
+INV00653,Regional Courier Co,2025-03-04,per_shipment,14.0,291.0,4074.0,Approved
+INV00654,Apex IT Consulting,2025-09-30,hourly,145.0,73.8,10701.0,Approved
+INV00655,OfficeMax Direct,2025-07-22,per_unit,1.0,580.0,580.0,Approved
+INV00656,ClearView Janitorial,2025-11-25,hourly,39.31,22.9,900.2,Pending Review
+INV00657,Swift Freight Logistics,2025-10-01,per_shipment,18.5,179.0,3311.5,Approved
+INV00658,ClearView Janitorial,2025-06-21,hourly,38.91,35.9,1396.87,Approved
+INV00659,Regional Courier Co,2025-09-11,per_shipment,14.0,166.5,2331.0,Approved
+INV00660,ClearView Janitorial,2025-09-12,hourly,38.0,72.1,2739.8,Approved
+INV00661,ClearView Janitorial,2025-10-11,hourly,38.0,35.2,1337.6,Approved
+INV00662,Regional Courier Co,2025-01-29,per_shipment,14.0,377.0,5278.0,Approved
+INV00663,ClearView Janitorial,2025-08-19,hourly,38.0,78.7,2990.6,Pending Review
+INV00664,Swift Freight Logistics,2025-10-26,per_shipment,19.31,13.0,251.03,Approved
+INV00665,CloudSuite Solutions,2025-04-30,per_seat,55.0,168.0,9240.0,Pending Review
+INV00666,Vantage Software Inc,2025-07-09,per_seat,44.33,119.0,5275.27,Approved
+INV00667,Meridian Systems Group,2025-01-13,hourly,130.0,45.2,5876.0,Pending Review
+INV00668,Meridian Systems Group,2025-08-10,hourly,130.0,30.2,3926.0,Approved
+INV00669,Hartwell Legal Advisors,2025-10-06,hourly,310.0,51.0,15810.0,Approved
+INV00670,Apex IT Consulting,2025-07-30,hourly,145.0,19.8,2871.0,Approved
+INV00671,Reliant Facilities Mgmt,2025-01-26,hourly,62.0,6.0,372.0,Pending Review
+INV00672,Apex IT Consulting,2025-12-14,hourly,145.0,11.8,1711.0,Approved
+INV00673,ClearView Janitorial,2025-12-15,hourly,38.0,8.3,315.4,Approved
+INV00674,Regional Courier Co,2025-09-24,per_shipment,14.73,93.0,1369.89,Pending Review
+INV00675,ClearView Janitorial,2025-09-01,hourly,38.0,49.7,1888.6,Rejected
+INV00676,CloudSuite Solutions,2025-05-21,per_seat,55.0,14.0,770.0,Approved
+INV00677,Apex IT Consulting,2025-01-21,hourly,145.0,54.1,7844.5,Approved
+INV00678,ClearView Janitorial,2025-11-25,hourly,38.0,47.2,1793.6,Approved
+INV00679,OfficeMax Direct,2025-10-09,per_unit,1.0,467.0,467.0,Rejected
+INV00680,Regional Courier Co,2025-05-07,per_shipment,14.0,242.0,3388.0,Approved
+INV00681,OfficeMax Direct,2025-12-02,per_unit,1.0,524.0,524.0,Approved
+INV00682,Regional Courier Co,2025-12-11,per_shipment,14.0,123.0,1722.0,Rejected
+INV00683,OfficeMax Direct,2025-02-15,per_unit,1.0,594.0,594.0,Approved
+INV00684,OfficeMax Direct,2025-02-17,per_unit,1.0,594.0,594.0,Pending Review
+INV00685,Swift Freight Logistics,2025-07-01,per_shipment,18.5,166.0,3071.0,Approved
+INV00686,Staples Business Advantage,2025-02-03,per_unit,1.17,286.0,334.62,Approved
+INV00687,Meridian Systems Group,2025-12-08,hourly,130.0,8.7,1131.0,Approved
+INV00688,Hartwell Legal Advisors,2025-03-12,hourly,310.0,33.8,10478.0,Approved
+INV00689,Beacon Consulting Partners,2025-10-16,hourly,220.0,13.4,2948.0,Approved
+INV00690,Swift Freight Logistics,2025-06-14,per_shipment,18.5,115.0,2223.79,Approved
+INV00691,Vantage Software Inc,2025-04-26,per_seat,58.05,66.0,3831.3,Approved
+INV00692,ClearView Janitorial,2025-11-14,hourly,38.0,24.0,912.0,Approved
+INV00693,Swift Freight Logistics,2025-09-03,per_shipment,18.5,225.0,4268.08,Approved
+INV00694,Beacon Consulting Partners,2025-05-17,hourly,220.0,51.1,11242.0,Approved
+INV00695,Vantage Software Inc,2025-06-17,per_seat,42.0,224.0,9408.0,Approved
+INV00696,Reliant Facilities Mgmt,2025-10-12,hourly,64.71,7.1,459.44,Approved
+INV00697,Reliant Facilities Mgmt,2025-10-19,hourly,65.4,71.6,4682.64,Approved
+INV00698,Hartwell Legal Advisors,2025-08-21,hourly,310.0,39.6,12276.0,Approved
+INV00699,Hartwell Legal Advisors,2025-06-11,hourly,310.0,6.0,1860.0,Approved
+INV00700,Reliant Facilities Mgmt,2025-04-10,hourly,85.04,64.9,5519.1,Approved
+INV00701,CloudSuite Solutions,2025-10-21,per_seat,65.09,73.0,4751.57,Approved
+INV00702,Reliant Facilities Mgmt,2025-04-18,hourly,63.57,58.0,3687.06,Approved
+INV00703,Regional Courier Co,2025-10-18,per_shipment,14.0,343.0,4802.0,Rejected
+INV00704,Swift Freight Logistics,2025-10-16,per_shipment,25.43,54.0,1373.22,Approved
+INV00705,Staples Business Advantage,2025-08-08,per_unit,1.0,98.0,98.0,Approved
+INV00706,Hartwell Legal Advisors,2025-04-05,hourly,310.0,34.4,10664.0,Approved
+INV00707,Swift Freight Logistics,2025-09-17,per_shipment,18.5,259.0,4791.5,Approved
+INV00708,Reliant Facilities Mgmt,2025-05-08,hourly,76.53,54.9,4201.5,Approved
+INV00709,Apex IT Consulting,2025-02-17,hourly,145.0,76.2,11049.0,Approved
+INV00710,OfficeMax Direct,2025-07-27,per_unit,1.0,691.9,691.9,Approved
+INV00711,Meridian Systems Group,2025-10-18,hourly,130.0,25.6,3328.0,Approved
+INV00712,Regional Courier Co,2025-09-12,per_shipment,14.83,205.0,3040.15,Approved
+INV00713,Swift Freight Logistics,2025-12-25,per_shipment,18.5,220.0,4070.0,Approved
+INV00714,Meridian Systems Group,2025-05-28,hourly,130.0,33.3,4329.0,Approved
+INV00715,Vantage Software Inc,2025-06-15,per_seat,42.0,198.0,8316.0,Approved
+INV00716,Hartwell Legal Advisors,2025-06-06,hourly,310.0,52.5,16275.0,Approved
+INV00717,Staples Business Advantage,2025-05-08,per_unit,1.0,489.0,489.0,Approved
+INV00718,Beacon Consulting Partners,2025-07-29,hourly,220.0,68.7,15114.0,Pending Review
+INV00719,Apex IT Consulting,2025-06-14,hourly,148.47,79.2,11758.82,Approved
+INV00720,Reliant Facilities Mgmt,2025-11-30,hourly,62.0,36.9,2287.8,Approved
+INV00721,Vantage Software Inc,2025-02-04,per_seat,42.0,191.0,8022.0,Approved
+INV00722,CloudSuite Solutions,2025-01-26,per_seat,55.0,140.0,7700.0,Rejected
+INV00723,Regional Courier Co,2025-02-17,per_shipment,14.0,130.0,1820.0,Approved
+INV00724,Apex IT Consulting,2025-06-17,hourly,145.0,5.9,855.5,Approved
+INV00725,Staples Business Advantage,2025-04-23,per_unit,1.0,531.0,531.0,Approved
+INV00726,CloudSuite Solutions,2025-09-05,per_seat,55.0,155.0,8525.0,Approved
+INV00727,Hartwell Legal Advisors,2025-12-15,hourly,310.0,14.0,4483.17,Approved
+INV00728,Staples Business Advantage,2025-06-20,per_unit,1.0,723.0,723.0,Pending Review
+INV00729,Staples Business Advantage,2025-06-16,per_unit,1.03,284.0,292.52,Approved
+INV00730,Vantage Software Inc,2025-07-11,per_seat,42.0,170.0,7274.11,Approved
+INV00731,Hartwell Legal Advisors,2025-08-02,hourly,310.0,79.0,24517.73,Approved
+INV00732,Vantage Software Inc,2025-03-12,per_seat,42.0,219.0,9198.0,Approved
+INV00733,ClearView Janitorial,2025-05-18,hourly,39.49,61.5,2428.64,Approved
+INV00734,Vantage Software Inc,2025-09-14,per_seat,42.0,51.0,2142.0,Approved
+INV00735,Apex IT Consulting,2025-10-06,hourly,145.0,24.4,3538.0,Approved
+INV00736,Apex IT Consulting,2025-12-03,hourly,145.0,39.1,5669.5,Approved
+INV00737,Apex IT Consulting,2025-12-11,hourly,145.0,39.1,5669.5,Approved
+INV00738,Reliant Facilities Mgmt,2025-07-28,hourly,62.0,28.2,1748.4,Approved
+INV00739,Beacon Consulting Partners,2025-02-25,hourly,220.0,53.2,11704.0,Pending Review
+INV00740,Hartwell Legal Advisors,2025-08-19,hourly,415.87,34.6,14389.1,Approved
+INV00741,Apex IT Consulting,2025-12-09,hourly,145.0,50.7,7421.78,Approved
+INV00742,CloudSuite Solutions,2025-06-30,per_seat,55.0,141.0,7755.0,Approved
+INV00743,CloudSuite Solutions,2025-07-10,per_seat,55.0,141.0,7755.0,Pending Review
+INV00744,Meridian Systems Group,2025-12-28,hourly,130.0,37.6,4888.0,Rejected
+INV00745,Vantage Software Inc,2025-12-23,per_seat,42.0,169.0,7098.0,Pending Review
+INV00746,Regional Courier Co,2025-10-14,per_shipment,14.0,274.0,3836.0,Approved
+INV00747,Swift Freight Logistics,2025-04-29,per_shipment,18.5,132.0,2442.0,Approved
+INV00748,Apex IT Consulting,2025-06-18,hourly,145.0,4.4,638.0,Approved
+INV00749,Vantage Software Inc,2025-12-28,per_seat,42.0,40.0,1680.0,Approved
+INV00750,Apex IT Consulting,2025-08-20,hourly,145.0,71.3,10338.5,Pending Review
+INV00751,Beacon Consulting Partners,2025-09-14,hourly,220.0,36.9,8118.0,Approved
+INV00752,Apex IT Consulting,2025-09-18,hourly,145.0,68.7,9961.5,Approved
+INV00753,Hartwell Legal Advisors,2025-09-04,hourly,310.0,20.8,6448.0,Rejected
+INV00754,Hartwell Legal Advisors,2025-09-14,hourly,310.0,20.8,6448.0,Pending Review
+INV00755,Vantage Software Inc,2025-11-18,per_seat,42.0,66.0,2772.0,Approved
+INV00756,OfficeMax Direct,2025-08-16,per_unit,1.0,161.0,161.0,Approved
+INV00757,Apex IT Consulting,2025-07-03,hourly,145.0,24.1,3494.5,Approved
+INV00758,Vantage Software Inc,2025-01-28,per_seat,42.0,36.0,1512.0,Approved
+INV00759,Staples Business Advantage,2025-12-30,per_unit,1.0,760.0,760.0,Approved
+INV00760,Regional Courier Co,2025-01-20,per_shipment,14.0,67.0,938.0,Approved
+INV00761,Regional Courier Co,2025-01-25,per_shipment,14.0,67.0,938.0,Pending Review
+INV00762,Swift Freight Logistics,2025-05-19,per_shipment,18.5,328.0,6172.8,Approved
+INV00763,Meridian Systems Group,2025-06-24,hourly,130.0,48.2,6266.0,Approved
+INV00764,Meridian Systems Group,2025-07-01,hourly,130.0,48.2,6266.0,Pending Review
+INV00765,Regional Courier Co,2025-10-03,per_shipment,14.0,181.0,2534.0,Approved
+INV00766,CloudSuite Solutions,2025-05-09,per_seat,55.0,20.0,1100.0,Approved
+INV00767,Reliant Facilities Mgmt,2025-02-04,hourly,62.0,7.4,458.8,Approved
+INV00768,Staples Business Advantage,2025-09-28,per_unit,1.0,783.0,783.0,Pending Review
+INV00769,Beacon Consulting Partners,2025-07-29,hourly,220.0,24.9,5478.0,Approved
+INV00770,Meridian Systems Group,2025-11-18,hourly,130.0,23.7,3081.0,Approved
+INV00771,Beacon Consulting Partners,2025-03-03,hourly,268.16,11.3,3030.21,Approved
+INV00772,Reliant Facilities Mgmt,2025-05-30,hourly,62.0,55.9,3465.8,Approved
+INV00773,Vantage Software Inc,2025-10-10,per_seat,42.0,76.0,3192.0,Approved
+INV00774,Hartwell Legal Advisors,2025-06-28,hourly,360.72,33.3,12011.98,Approved
+INV00775,Reliant Facilities Mgmt,2025-01-03,hourly,62.0,12.6,781.2,Approved
+INV00776,Vantage Software Inc,2025-09-05,per_seat,42.0,95.0,4116.44,Approved
+INV00777,Beacon Consulting Partners,2025-09-14,hourly,220.0,18.6,4092.0,Approved
+INV00778,CloudSuite Solutions,2025-08-08,per_seat,68.18,136.0,9272.48,Approved
+INV00779,Hartwell Legal Advisors,2025-03-09,hourly,321.18,24.9,7997.38,Approved
+INV00780,Reliant Facilities Mgmt,2025-04-26,hourly,62.0,35.1,2176.2,Approved
+INV00781,Apex IT Consulting,2025-12-21,hourly,145.0,60.9,8830.5,Approved
+INV00782,Reliant Facilities Mgmt,2025-05-04,hourly,62.0,17.6,1091.2,Approved
+INV00783,CloudSuite Solutions,2025-02-05,per_seat,56.93,65.0,3700.45,Approved
+INV00784,Beacon Consulting Partners,2025-08-24,hourly,224.57,11.7,2627.47,Approved
+INV00785,OfficeMax Direct,2025-07-10,per_unit,1.0,228.0,228.0,Approved
+INV00786,Meridian Systems Group,2025-10-07,hourly,130.0,25.6,3328.0,Approved
+INV00787,CloudSuite Solutions,2025-05-11,per_seat,55.0,182.0,10010.0,Approved
+INV00788,OfficeMax Direct,2025-07-11,per_unit,1.0,400.0,400.0,Approved
+INV00789,OfficeMax Direct,2025-07-15,per_unit,1.0,400.0,400.0,Approved
+INV00790,OfficeMax Direct,2025-10-19,per_unit,1.0,140.0,140.0,Approved
+INV00791,Beacon Consulting Partners,2025-06-03,hourly,220.0,42.0,9240.0,Approved
+INV00792,Swift Freight Logistics,2025-01-02,per_shipment,18.5,83.9,1552.15,Rejected
+INV00793,Staples Business Advantage,2025-07-31,per_unit,1.0,386.0,386.0,Approved
+INV00794,Apex IT Consulting,2025-02-13,hourly,145.0,63.9,9265.5,Approved
+INV00795,Staples Business Advantage,2025-05-03,per_unit,1.0,29.0,135.7,Approved
+INV00796,Reliant Facilities Mgmt,2025-05-21,hourly,62.0,59.0,3658.0,Approved
+INV00797,Staples Business Advantage,2025-11-25,per_unit,1.04,292.0,303.68,Approved
+INV00798,Swift Freight Logistics,2025-11-03,per_shipment,19.34,183.0,3539.22,Approved
+INV00799,Hartwell Legal Advisors,2025-02-14,hourly,310.0,74.0,22940.0,Approved
+INV00800,Hartwell Legal Advisors,2025-02-23,hourly,310.0,74.0,22940.0,Approved
+INV00801,OfficeMax Direct,2025-03-02,per_unit,1.0,420.0,448.57,Approved
+INV00802,Swift Freight Logistics,2025-03-01,per_shipment,18.94,305.0,5776.7,Approved
+INV00803,Apex IT Consulting,2025-12-06,hourly,145.0,39.0,5655.0,Approved
+INV00804,Hartwell Legal Advisors,2025-02-08,hourly,310.0,79.1,24521.0,Approved
+INV00805,Swift Freight Logistics,2025-11-02,per_shipment,18.5,226.0,4181.0,Approved
+INV00806,Swift Freight Logistics,2025-04-09,per_shipment,18.5,176.0,3256.0,Approved
+INV00807,CloudSuite Solutions,2025-08-08,per_seat,55.0,24.0,1320.0,Approved
+INV00808,CloudSuite Solutions,2025-11-16,per_seat,68.17,68.0,4635.56,Approved
+INV00809,Hartwell Legal Advisors,2025-06-10,hourly,310.0,37.1,11501.0,Approved
+INV00810,Regional Courier Co,2025-05-06,per_shipment,14.0,115.0,1610.0,Pending Review
+INV00811,CloudSuite Solutions,2025-01-13,per_seat,71.4,128.0,9139.2,Approved
+INV00812,Meridian Systems Group,2025-04-20,hourly,178.47,65.0,11600.55,Approved
+INV00813,Swift Freight Logistics,2025-02-19,per_shipment,18.5,388.0,7178.0,Approved
+INV00814,Vantage Software Inc,2025-10-09,per_seat,44.11,176.0,7763.36,Approved
+INV00815,Reliant Facilities Mgmt,2025-02-04,hourly,62.0,25.6,1587.2,Approved
+INV00816,Regional Courier Co,2025-12-07,per_shipment,14.0,348.0,4872.0,Approved
+INV00817,Swift Freight Logistics,2025-10-06,per_shipment,18.5,340.0,6290.0,Pending Review
+INV00818,Apex IT Consulting,2025-09-17,hourly,145.0,68.7,9961.5,Approved
+INV00819,Regional Courier Co,2025-01-15,per_shipment,14.0,171.0,2394.0,Approved
+INV00820,Regional Courier Co,2025-01-24,per_shipment,14.0,171.0,2394.0,Approved
+INV00821,Beacon Consulting Partners,2025-08-31,hourly,228.01,41.6,9485.22,Approved
+INV00822,Regional Courier Co,2025-10-17,per_shipment,14.0,287.7,4027.8,Approved
+INV00823,Regional Courier Co,2025-07-21,per_shipment,14.0,318.0,4452.0,Approved
+INV00824,Regional Courier Co,2025-09-26,per_shipment,14.0,192.0,2688.0,Approved
+INV00825,OfficeMax Direct,2025-02-12,per_unit,1.0,769.0,769.0,Approved
+INV00826,OfficeMax Direct,2025-02-20,per_unit,1.0,769.0,769.0,Pending Review
+INV00827,ClearView Janitorial,2025-03-08,hourly,38.0,74.4,2827.2,Approved
+INV00828,Staples Business Advantage,2025-08-28,per_unit,1.0,526.0,526.0,Approved
+INV00829,Staples Business Advantage,2025-12-12,per_unit,1.0,364.0,364.0,Approved
+INV00830,Reliant Facilities Mgmt,2025-04-12,hourly,62.0,60.4,3744.8,Pending Review
+INV00831,Meridian Systems Group,2025-03-22,hourly,130.0,5.6,728.0,Approved
+INV00832,Reliant Facilities Mgmt,2025-10-29,hourly,62.0,77.9,4829.8,Rejected
+INV00833,Hartwell Legal Advisors,2025-05-11,hourly,316.31,63.8,20180.58,Approved
+INV00834,Meridian Systems Group,2025-12-22,hourly,130.0,72.7,9451.0,Pending Review
+INV00835,Reliant Facilities Mgmt,2025-09-03,hourly,62.0,10.8,669.6,Approved
+INV00836,CloudSuite Solutions,2025-07-12,per_seat,55.0,78.0,4290.0,Approved
+INV00837,Swift Freight Logistics,2025-06-16,per_shipment,18.5,191.0,3533.5,Approved
+INV00838,Vantage Software Inc,2025-06-27,per_seat,42.0,16.0,672.0,Approved
+INV00839,Reliant Facilities Mgmt,2025-11-07,hourly,62.0,70.9,4395.8,Approved
+INV00840,Hartwell Legal Advisors,2025-08-03,hourly,310.0,45.4,14074.0,Approved
+INV00841,Swift Freight Logistics,2025-02-23,per_shipment,19.24,78.0,1500.72,Approved
+INV00842,Beacon Consulting Partners,2025-06-19,hourly,220.0,62.9,13838.0,Approved
+INV00843,Meridian Systems Group,2025-01-10,hourly,133.22,22.2,2957.48,Pending Review
+INV00844,Regional Courier Co,2025-07-25,per_shipment,14.0,113.0,1582.0,Approved
+INV00845,Meridian Systems Group,2025-11-09,hourly,130.0,7.8,1014.0,Approved
+INV00846,Hartwell Legal Advisors,2025-01-09,hourly,310.0,76.5,23715.0,Approved
+INV00847,Apex IT Consulting,2025-11-16,hourly,145.0,72.5,10512.5,Approved
+INV00848,Meridian Systems Group,2025-10-10,hourly,130.0,17.9,2327.0,Approved
+INV00849,CloudSuite Solutions,2025-05-06,per_seat,55.0,221.0,12155.0,Approved
+INV00850,ClearView Janitorial,2025-08-12,hourly,38.0,22.4,851.2,Pending Review
+INV00851,Swift Freight Logistics,2025-05-10,per_shipment,18.5,260.0,4861.75,Approved
+INV00852,ClearView Janitorial,2025-04-26,hourly,38.0,17.2,653.6,Approved
+INV00853,Regional Courier Co,2025-04-07,per_shipment,14.0,192.0,2688.0,Approved
+INV00854,Apex IT Consulting,2025-07-22,hourly,148.47,46.0,6829.62,Pending Review
+INV00855,Swift Freight Logistics,2025-08-03,per_shipment,18.5,197.0,3644.5,Approved
+INV00856,ClearView Janitorial,2025-06-30,hourly,38.0,25.3,961.4,Approved
+INV00857,Staples Business Advantage,2025-02-14,per_unit,1.03,392.0,403.76,Approved
+INV00858,Apex IT Consulting,2025-03-17,hourly,145.0,41.0,5945.0,Pending Review
+INV00859,Beacon Consulting Partners,2025-09-06,hourly,220.0,52.7,11594.0,Rejected
+INV00860,Staples Business Advantage,2025-11-18,per_unit,1.0,402.0,402.0,Approved
+INV00861,Reliant Facilities Mgmt,2025-02-18,hourly,62.0,16.8,1041.6,Approved
+INV00862,Hartwell Legal Advisors,2025-07-31,hourly,310.0,74.9,23219.0,Approved
+INV00863,CloudSuite Solutions,2025-08-13,per_seat,55.0,87.0,4785.0,Approved
+INV00864,OfficeMax Direct,2025-01-18,per_unit,1.0,360.0,360.0,Approved
+INV00865,CloudSuite Solutions,2025-04-15,per_seat,55.0,150.0,8250.0,Rejected
+INV00866,Reliant Facilities Mgmt,2025-07-07,hourly,62.0,62.3,3862.6,Approved
+INV00867,ClearView Janitorial,2025-06-02,hourly,39.64,78.0,3091.92,Approved
+INV00868,Apex IT Consulting,2025-05-20,hourly,145.0,46.1,6684.5,Approved
+INV00869,Staples Business Advantage,2025-06-26,per_unit,1.0,337.0,337.0,Pending Review
+INV00870,Swift Freight Logistics,2025-08-19,per_shipment,18.5,54.0,999.0,Approved
+INV00871,Vantage Software Inc,2025-07-05,per_seat,42.0,244.0,10248.0,Rejected
+INV00872,ClearView Janitorial,2025-07-09,hourly,38.0,26.2,995.6,Approved
+INV00873,Staples Business Advantage,2025-07-07,per_unit,1.0,519.0,519.0,Approved
+INV00874,Hartwell Legal Advisors,2025-05-23,hourly,310.0,4.3,1333.0,Approved
+INV00875,OfficeMax Direct,2025-09-08,per_unit,1.0,268.8,268.8,Approved
+INV00876,Swift Freight Logistics,2025-05-19,per_shipment,18.5,447.9,8286.15,Approved
+INV00877,Apex IT Consulting,2025-02-16,hourly,145.0,79.8,11571.0,Approved
+INV00878,CloudSuite Solutions,2025-08-16,per_seat,55.0,195.0,10725.0,Approved
+INV00879,Hartwell Legal Advisors,2025-07-02,hourly,323.52,51.1,16531.87,Pending Review
+INV00880,Meridian Systems Group,2025-08-11,hourly,130.0,56.3,7319.0,Approved
+INV00881,CloudSuite Solutions,2025-08-14,per_seat,55.0,106.0,5830.0,Approved
+INV00882,ClearView Janitorial,2025-06-19,hourly,38.0,22.8,866.4,Approved
+INV00883,Staples Business Advantage,2025-01-13,per_unit,1.0,872.9,872.9,Approved
+INV00884,OfficeMax Direct,2025-11-22,per_unit,1.0,739.0,739.0,Rejected
+INV00885,ClearView Janitorial,2025-07-09,hourly,38.0,58.5,2223.0,Approved
+INV00886,Regional Courier Co,2025-05-14,per_shipment,14.0,318.0,4452.0,Approved
+INV00887,Regional Courier Co,2025-05-16,per_shipment,14.0,318.0,4452.0,Approved
+INV00888,OfficeMax Direct,2025-02-02,per_unit,1.0,113.0,191.58,Pending Review
+INV00889,Hartwell Legal Advisors,2025-01-18,hourly,310.0,67.9,21049.0,Approved
+INV00890,Regional Courier Co,2025-06-19,per_shipment,14.0,297.0,4158.0,Approved
+INV00891,Swift Freight Logistics,2025-10-12,per_shipment,18.5,37.0,684.5,Approved
+INV00892,Vantage Software Inc,2025-03-18,per_seat,42.0,107.0,4494.0,Approved
+INV00893,Vantage Software Inc,2025-05-19,per_seat,42.0,54.0,2268.0,Approved
+INV00894,Reliant Facilities Mgmt,2025-10-13,hourly,62.0,4.6,285.2,Approved
+INV00895,Staples Business Advantage,2025-03-17,per_unit,1.0,615.0,615.0,Approved
+INV00896,Regional Courier Co,2025-07-20,per_shipment,14.0,238.0,3332.0,Approved
+INV00897,Apex IT Consulting,2025-09-01,hourly,148.7,43.3,6438.71,Approved
+INV00898,Apex IT Consulting,2025-10-06,hourly,145.0,73.0,10585.0,Rejected
+INV00899,Apex IT Consulting,2025-05-08,hourly,145.0,16.6,2407.0,Pending Review
+INV00900,Reliant Facilities Mgmt,2025-02-26,hourly,62.0,67.9,4209.8,Approved
+INV00901,Hartwell Legal Advisors,2025-07-14,hourly,310.0,51.3,15903.0,Pending Review
+INV00902,CloudSuite Solutions,2025-08-18,per_seat,55.0,227.0,12485.0,Approved
+INV00903,ClearView Janitorial,2025-11-24,hourly,38.0,19.4,737.2,Approved
+INV00904,ClearView Janitorial,2025-12-04,hourly,38.0,19.4,737.2,Pending Review
+INV00905,Swift Freight Logistics,2025-05-28,per_shipment,18.5,356.0,6586.0,Approved
+INV00906,Meridian Systems Group,2025-03-20,hourly,130.0,63.4,8242.0,Approved
+INV00907,Meridian Systems Group,2025-07-11,hourly,130.0,4.5,585.0,Rejected
+INV00908,Apex IT Consulting,2025-12-31,hourly,190.08,13.7,2604.1,Approved
+INV00909,Beacon Consulting Partners,2025-02-05,hourly,220.0,47.9,10538.0,Approved
+INV00910,Meridian Systems Group,2025-04-01,hourly,136.19,29.6,4031.22,Pending Review
+INV00911,Hartwell Legal Advisors,2025-10-13,hourly,325.43,9.8,3189.21,Approved
+INV00912,ClearView Janitorial,2025-05-23,hourly,38.0,9.6,364.8,Approved
+INV00913,Meridian Systems Group,2025-01-23,hourly,130.0,30.6,3978.0,Approved
+INV00914,Staples Business Advantage,2025-09-25,per_unit,1.05,335.0,351.75,Approved
+INV00915,Vantage Software Inc,2025-09-13,per_seat,42.0,294.6,12373.2,Approved
+INV00916,Vantage Software Inc,2025-07-27,per_seat,42.0,216.0,9072.0,Approved
+INV00917,Vantage Software Inc,2025-07-29,per_seat,42.0,216.0,9072.0,Pending Review
+INV00918,Swift Freight Logistics,2025-03-28,per_shipment,18.5,306.0,5661.0,Pending Review
+INV00919,Regional Courier Co,2025-05-06,per_shipment,17.8,376.0,6692.8,Approved
+INV00920,Meridian Systems Group,2025-02-10,hourly,161.49,72.4,11691.88,Approved
+INV00921,Meridian Systems Group,2025-05-24,hourly,130.0,72.8,9464.0,Approved
+INV00922,CloudSuite Solutions,2025-01-27,per_seat,55.0,119.0,6545.0,Approved
+INV00923,Meridian Systems Group,2025-12-23,hourly,130.0,66.5,8740.48,Approved
+INV00924,Meridian Systems Group,2025-01-31,hourly,130.0,89.1,11583.0,Approved
+INV00925,Staples Business Advantage,2025-08-10,per_unit,1.03,759.0,781.77,Approved
+INV00926,Meridian Systems Group,2025-06-04,hourly,130.0,78.9,10257.0,Approved
+INV00927,Staples Business Advantage,2025-09-26,per_unit,1.0,254.0,254.0,Approved
+INV00928,Staples Business Advantage,2025-05-27,per_unit,1.18,50.0,59.0,Approved
+INV00929,Reliant Facilities Mgmt,2025-02-15,hourly,62.0,32.2,1996.4,Approved
+INV00930,Beacon Consulting Partners,2025-10-04,hourly,230.5,52.9,12193.45,Approved
+INV00931,Beacon Consulting Partners,2025-03-17,hourly,220.0,14.5,3190.0,Approved
+INV00932,Beacon Consulting Partners,2025-10-15,hourly,220.0,32.8,7216.0,Rejected
+INV00933,ClearView Janitorial,2025-08-10,hourly,38.0,60.7,2306.6,Approved
+INV00934,Meridian Systems Group,2025-01-06,hourly,136.7,73.5,10047.45,Approved
+INV00935,Hartwell Legal Advisors,2025-04-01,hourly,310.0,25.0,7750.0,Approved
+INV00936,Regional Courier Co,2025-07-09,per_shipment,14.0,331.0,4634.0,Approved
+INV00937,ClearView Janitorial,2025-03-30,hourly,40.01,39.0,1560.39,Approved
+INV00938,Hartwell Legal Advisors,2025-09-21,hourly,310.0,45.8,14198.0,Approved
+INV00939,Swift Freight Logistics,2025-01-26,per_shipment,18.5,300.0,5550.0,Rejected
+INV00940,Meridian Systems Group,2025-04-16,hourly,130.0,77.9,10127.0,Approved
+INV00941,Staples Business Advantage,2025-06-17,per_unit,1.0,652.0,652.0,Pending Review
+INV00942,Beacon Consulting Partners,2025-04-07,hourly,220.0,10.0,2200.0,Approved
+INV00943,ClearView Janitorial,2025-06-09,hourly,38.0,11.7,444.6,Approved
+INV00944,Beacon Consulting Partners,2025-06-24,hourly,220.0,60.2,13244.0,Approved
+INV00945,OfficeMax Direct,2025-01-04,per_unit,1.06,234.0,248.04,Approved
+INV00946,CloudSuite Solutions,2025-12-18,per_seat,55.0,166.0,9130.0,Pending Review
+INV00947,CloudSuite Solutions,2025-12-27,per_seat,55.0,19.0,1045.0,Approved
+INV00948,Regional Courier Co,2025-12-16,per_shipment,14.0,241.8,3385.2,Pending Review
+INV00949,Beacon Consulting Partners,2025-08-27,hourly,220.0,28.7,6314.0,Approved
+INV00950,Apex IT Consulting,2025-04-06,hourly,148.49,75.2,11166.45,Approved
+INV00951,Beacon Consulting Partners,2025-05-03,hourly,220.0,39.6,8712.0,Approved
+INV00952,Reliant Facilities Mgmt,2025-05-27,hourly,65.68,76.8,5044.22,Approved
+INV00953,Hartwell Legal Advisors,2025-05-16,hourly,310.0,18.0,5580.0,Approved
+INV00954,Regional Courier Co,2025-11-30,per_shipment,14.61,183.0,2673.63,Pending Review
+INV00955,Apex IT Consulting,2025-04-28,hourly,145.0,45.8,6641.0,Approved
+INV00956,Apex IT Consulting,2025-05-25,hourly,145.0,49.8,7221.0,Approved
+INV00957,Hartwell Legal Advisors,2025-02-27,hourly,310.0,13.0,4030.0,Approved
+INV00958,Meridian Systems Group,2025-09-14,hourly,130.0,55.1,7163.0,Approved
+INV00959,Reliant Facilities Mgmt,2025-08-18,hourly,62.0,61.7,3825.4,Approved
+INV00960,Reliant Facilities Mgmt,2025-05-24,hourly,62.0,5.7,353.4,Approved
+INV00961,Swift Freight Logistics,2025-06-21,per_shipment,19.32,216.0,4173.12,Approved
+INV00962,Hartwell Legal Advisors,2025-01-13,hourly,317.27,50.6,16053.86,Approved
+INV00963,Hartwell Legal Advisors,2025-10-23,hourly,310.0,25.1,7781.0,Approved
+INV00964,ClearView Janitorial,2025-06-01,hourly,38.0,7.1,269.8,Approved
+INV00965,Swift Freight Logistics,2025-08-01,per_shipment,18.5,38.0,703.0,Approved
+INV00966,CloudSuite Solutions,2025-06-30,per_seat,55.0,190.9,10499.5,Approved
+INV00967,Beacon Consulting Partners,2025-05-09,hourly,220.0,70.0,15400.0,Approved
+INV00968,Meridian Systems Group,2025-06-26,hourly,130.0,4.6,598.0,Approved
+INV00969,ClearView Janitorial,2025-11-30,hourly,38.0,76.6,2910.8,Approved
+INV00970,Regional Courier Co,2025-06-18,per_shipment,14.0,149.0,2086.0,Approved
+INV00971,Apex IT Consulting,2025-06-29,hourly,151.99,32.2,4894.08,Pending Review
+INV00972,Hartwell Legal Advisors,2025-12-02,hourly,310.0,62.7,19437.0,Approved
+INV00973,Vantage Software Inc,2025-02-18,per_seat,42.0,200.0,8400.0,Approved
+INV00974,OfficeMax Direct,2025-12-24,per_unit,1.0,64.0,144.3,Approved
+INV00975,Vantage Software Inc,2025-04-14,per_seat,42.0,185.0,7885.69,Approved
+INV00976,Apex IT Consulting,2025-02-14,hourly,145.0,35.4,5133.0,Approved
+INV00977,Reliant Facilities Mgmt,2025-08-17,hourly,62.0,9.0,558.0,Approved
+INV00978,ClearView Janitorial,2025-11-30,hourly,38.0,36.2,1375.6,Rejected
+INV00979,Reliant Facilities Mgmt,2025-02-23,hourly,62.0,24.7,1531.4,Approved
+INV00980,OfficeMax Direct,2025-01-17,per_unit,1.0,817.4,817.4,Approved
+INV00981,Apex IT Consulting,2025-01-15,hourly,145.0,9.4,1363.0,Approved
+INV00982,Reliant Facilities Mgmt,2025-02-23,hourly,62.0,49.5,3069.0,Approved
+INV00983,Apex IT Consulting,2025-11-09,hourly,145.0,52.9,7670.5,Approved
+INV00984,Apex IT Consulting,2025-11-17,hourly,145.0,52.9,7670.5,Pending Review
+INV00985,Hartwell Legal Advisors,2025-03-17,hourly,310.0,11.7,3627.0,Pending Review
+INV00986,Hartwell Legal Advisors,2025-03-21,hourly,310.0,11.7,3627.0,Approved
+INV00987,Swift Freight Logistics,2025-03-08,per_shipment,19.44,349.0,6784.56,Approved
+INV00988,CloudSuite Solutions,2025-12-24,per_seat,55.0,13.0,715.0,Rejected
+INV00989,Reliant Facilities Mgmt,2025-04-10,hourly,62.0,54.6,3385.2,Approved
+INV00990,Regional Courier Co,2025-03-06,per_shipment,14.0,123.0,1722.0,Approved
+INV00991,Regional Courier Co,2025-03-11,per_shipment,14.0,123.0,1722.0,Approved
+INV00992,OfficeMax Direct,2025-11-27,per_unit,1.0,578.0,578.0,Approved
+INV00993,Beacon Consulting Partners,2025-08-07,hourly,220.0,42.5,9350.0,Approved
+INV00994,Reliant Facilities Mgmt,2025-10-13,hourly,83.37,21.6,1800.79,Approved
+INV00995,Beacon Consulting Partners,2025-02-02,hourly,220.0,51.4,11308.0,Pending Review
+INV00996,Beacon Consulting Partners,2025-04-21,hourly,220.0,24.1,5302.0,Approved
+INV00997,Beacon Consulting Partners,2025-01-25,hourly,220.0,62.8,13816.0,Approved
+INV00998,Hartwell Legal Advisors,2025-08-18,hourly,310.0,25.0,7750.0,Approved
+INV00999,OfficeMax Direct,2025-02-09,per_unit,1.0,774.0,774.0,Approved
+INV01000,OfficeMax Direct,2025-02-11,per_unit,1.0,774.0,774.0,Approved
+INV01001,Vantage Software Inc,2025-11-07,per_seat,42.0,17.5,735.0,Approved
+INV01002,OfficeMax Direct,2025-09-12,per_unit,1.0,37.0,37.0,Approved
+INV01003,Hartwell Legal Advisors,2025-06-30,hourly,310.0,44.4,13764.0,Approved
+INV01004,Meridian Systems Group,2025-09-27,hourly,130.0,22.4,2912.0,Approved
+INV01005,Meridian Systems Group,2025-03-13,hourly,130.0,66.9,8697.0,Approved
+INV01006,Swift Freight Logistics,2025-12-22,per_shipment,18.5,174.0,3219.0,Approved
+INV01007,ClearView Janitorial,2025-05-30,hourly,38.0,34.7,1318.6,Approved
+INV01008,Staples Business Advantage,2025-08-05,per_unit,1.0,527.0,527.0,Approved
+INV01009,Hartwell Legal Advisors,2025-11-08,hourly,310.0,47.2,14632.0,Pending Review
+INV01010,Beacon Consulting Partners,2025-06-22,hourly,220.0,8.4,1848.0,Pending Review
+INV01011,Staples Business Advantage,2025-01-24,per_unit,1.0,566.0,566.0,Approved
+INV01012,Staples Business Advantage,2025-08-22,per_unit,1.0,23.0,23.0,Approved
+INV01013,Staples Business Advantage,2025-12-20,per_unit,1.0,255.5,255.5,Approved
+INV01014,Regional Courier Co,2025-10-03,per_shipment,14.0,367.0,5138.0,Approved
+INV01015,ClearView Janitorial,2025-09-04,hourly,38.0,43.0,1634.0,Approved
+INV01016,Hartwell Legal Advisors,2025-08-21,hourly,310.0,49.9,15469.0,Approved
+INV01017,CloudSuite Solutions,2025-08-21,per_seat,57.24,52.0,2976.48,Approved
+INV01018,Meridian Systems Group,2025-11-11,hourly,130.0,69.0,8970.0,Approved
+INV01019,CloudSuite Solutions,2025-10-29,per_seat,55.0,224.0,12320.0,Rejected
+INV01020,Meridian Systems Group,2025-03-04,hourly,130.0,56.0,7357.78,Pending Review
+INV01021,Staples Business Advantage,2025-08-21,per_unit,1.0,267.9,267.9,Approved
+INV01022,CloudSuite Solutions,2025-11-20,per_seat,55.0,119.7,6583.5,Approved
+INV01023,Reliant Facilities Mgmt,2025-07-04,hourly,62.0,7.1,440.2,Approved
+INV01024,Apex IT Consulting,2025-06-16,hourly,145.0,58.4,8468.0,Approved
+INV01025,Reliant Facilities Mgmt,2025-03-23,hourly,62.0,41.2,2554.4,Approved
+INV01026,Reliant Facilities Mgmt,2025-04-02,hourly,62.0,66.8,4141.6,Approved
+INV01027,Beacon Consulting Partners,2025-08-19,hourly,220.0,5.2,1144.0,Approved
+INV01028,OfficeMax Direct,2025-05-02,per_unit,1.0,125.0,125.0,Approved
+INV01029,Regional Courier Co,2025-08-23,per_shipment,14.0,346.1,4845.4,Approved
+INV01030,Beacon Consulting Partners,2025-11-05,hourly,220.0,49.8,10956.0,Approved
+INV01031,Meridian Systems Group,2025-08-30,hourly,130.0,60.4,7959.53,Approved
+INV01032,Meridian Systems Group,2025-02-24,hourly,134.17,57.2,7674.52,Approved
+INV01033,Vantage Software Inc,2025-10-06,per_seat,42.0,191.0,8022.0,Approved
+INV01034,Hartwell Legal Advisors,2025-11-21,hourly,326.86,42.5,13891.55,Pending Review
+INV01035,Swift Freight Logistics,2025-03-18,per_shipment,18.5,274.0,5069.0,Approved
+INV01036,Vantage Software Inc,2025-03-05,per_seat,42.0,99.0,4158.0,Approved
+INV01037,Staples Business Advantage,2025-08-26,per_unit,1.0,568.0,568.0,Approved
+INV01038,ClearView Janitorial,2025-07-13,hourly,38.0,4.3,163.4,Approved
+INV01039,Reliant Facilities Mgmt,2025-07-27,hourly,63.61,68.9,4382.73,Pending Review
+INV01040,Staples Business Advantage,2025-08-28,per_unit,1.0,36.0,36.0,Approved
+INV01041,Reliant Facilities Mgmt,2025-06-12,hourly,65.14,71.4,4651.0,Approved
+INV01042,Vantage Software Inc,2025-09-08,per_seat,42.0,221.0,9282.0,Approved
+INV01043,Regional Courier Co,2025-01-16,per_shipment,14.0,325.0,4550.0,Rejected
+INV01044,Swift Freight Logistics,2025-04-24,per_shipment,18.5,319.0,5901.5,Approved
+INV01045,Apex IT Consulting,2025-01-13,hourly,180.28,66.2,11934.54,Approved
+INV01046,ClearView Janitorial,2025-08-03,hourly,38.0,8.5,323.0,Approved
+INV01047,Staples Business Advantage,2025-07-11,per_unit,1.0,791.0,791.0,Pending Review
+INV01048,OfficeMax Direct,2025-04-17,per_unit,1.0,710.0,710.0,Pending Review
+INV01049,Hartwell Legal Advisors,2025-01-17,hourly,310.0,46.9,14539.0,Approved
+INV01050,Hartwell Legal Advisors,2025-06-18,hourly,310.0,20.6,6386.0,Approved
+INV01051,ClearView Janitorial,2025-02-24,hourly,38.0,44.7,1698.6,Approved
+INV01052,Vantage Software Inc,2025-11-03,per_seat,42.0,14.0,588.0,Approved
+INV01053,Beacon Consulting Partners,2025-04-11,hourly,229.36,53.4,12247.82,Approved
+INV01054,Hartwell Legal Advisors,2025-07-24,hourly,310.0,72.4,22444.0,Approved
+INV01055,Apex IT Consulting,2025-04-22,hourly,145.0,9.5,1377.5,Approved
+INV01056,Apex IT Consulting,2025-08-19,hourly,148.16,18.0,2666.88,Approved
+INV01057,OfficeMax Direct,2025-09-15,per_unit,1.0,681.0,681.0,Approved
+INV01058,Vantage Software Inc,2025-09-03,per_seat,42.0,42.0,1764.0,Approved
+INV01059,Regional Courier Co,2025-08-11,per_shipment,14.0,345.0,4858.2,Approved
+INV01060,CloudSuite Solutions,2025-11-22,per_seat,67.14,184.0,12353.76,Pending Review
+INV01061,Meridian Systems Group,2025-11-22,hourly,130.0,31.6,4108.0,Approved
+INV01062,Regional Courier Co,2025-05-23,per_shipment,14.4,14.0,201.6,Approved
+INV01063,CloudSuite Solutions,2025-11-18,per_seat,57.14,175.0,9999.5,Approved
+INV01064,CloudSuite Solutions,2025-06-29,per_seat,55.0,181.0,9955.0,Approved
+INV01065,OfficeMax Direct,2025-05-04,per_unit,1.0,184.0,184.0,Approved
+INV01066,Reliant Facilities Mgmt,2025-05-18,hourly,62.0,32.1,1990.2,Pending Review
+INV01067,Regional Courier Co,2025-05-02,per_shipment,14.0,71.0,994.0,Pending Review
+INV01068,CloudSuite Solutions,2025-06-19,per_seat,55.0,39.0,2145.0,Approved
+INV01069,Meridian Systems Group,2025-07-06,hourly,130.0,11.2,1456.0,Pending Review
+INV01070,Regional Courier Co,2025-10-12,per_shipment,14.0,264.0,3696.0,Approved
+INV01071,Reliant Facilities Mgmt,2025-02-05,hourly,81.13,36.7,2977.47,Approved
+INV01072,Vantage Software Inc,2025-05-15,per_seat,42.0,16.0,672.0,Approved
+INV01073,ClearView Janitorial,2025-08-04,hourly,38.0,9.5,361.0,Approved
+INV01074,Apex IT Consulting,2025-07-03,hourly,145.0,37.4,5423.0,Approved
+INV01075,Staples Business Advantage,2025-09-15,per_unit,1.0,781.0,781.0,Approved
+INV01076,Hartwell Legal Advisors,2025-12-30,hourly,310.0,29.5,9145.0,Pending Review
+INV01077,Hartwell Legal Advisors,2025-09-21,hourly,310.0,66.0,20460.0,Approved
+INV01078,Meridian Systems Group,2025-12-27,hourly,130.0,44.6,5798.0,Rejected
+INV01079,ClearView Janitorial,2025-01-28,hourly,38.0,47.8,1816.4,Approved
+INV01080,Reliant Facilities Mgmt,2025-02-04,hourly,62.0,41.7,2585.4,Approved
+INV01081,Vantage Software Inc,2025-11-02,per_seat,42.0,180.1,7564.2,Approved
+INV01082,Reliant Facilities Mgmt,2025-12-30,hourly,62.0,65.9,4085.8,Approved
+INV01083,Meridian Systems Group,2025-01-29,hourly,130.0,79.6,10348.0,Approved
+INV01084,Reliant Facilities Mgmt,2025-01-30,hourly,62.0,40.2,2492.4,Approved
+INV01085,Reliant Facilities Mgmt,2025-05-24,hourly,62.0,70.9,4395.8,Approved
+INV01086,Reliant Facilities Mgmt,2025-06-02,hourly,62.0,70.9,4395.8,Approved
+INV01087,Vantage Software Inc,2025-03-09,per_seat,42.0,112.0,4704.0,Approved
+INV01088,ClearView Janitorial,2025-08-27,hourly,38.0,85.8,3260.4,Approved
+INV01089,Staples Business Advantage,2025-11-15,per_unit,1.0,582.0,582.0,Approved
+INV01090,Vantage Software Inc,2025-06-01,per_seat,42.0,37.0,1554.0,Approved
+INV01091,CloudSuite Solutions,2025-02-07,per_seat,55.0,134.0,7370.0,Approved
+INV01092,Vantage Software Inc,2025-03-10,per_seat,51.92,23.0,1194.16,Approved
+INV01093,Beacon Consulting Partners,2025-10-02,hourly,220.0,31.9,7018.0,Approved
+INV01094,Staples Business Advantage,2025-03-23,per_unit,1.05,183.0,192.15,Approved
+INV01095,Apex IT Consulting,2025-06-22,hourly,145.0,32.4,4698.0,Approved
+INV01096,Beacon Consulting Partners,2025-02-07,hourly,220.0,33.5,7370.0,Approved
+INV01097,Hartwell Legal Advisors,2025-06-30,hourly,326.03,32.7,10661.18,Approved
+INV01098,Swift Freight Logistics,2025-10-02,per_shipment,18.5,102.0,1887.0,Approved
+INV01099,Staples Business Advantage,2025-12-22,per_unit,1.0,762.0,762.0,Approved
+INV01100,Apex IT Consulting,2025-07-29,hourly,145.0,39.3,5838.43,Approved
+INV01101,OfficeMax Direct,2025-10-19,per_unit,1.05,619.0,649.95,Pending Review
+INV01102,CloudSuite Solutions,2025-03-12,per_seat,56.94,61.0,3473.34,Approved
+INV01103,CloudSuite Solutions,2025-08-31,per_seat,55.0,134.0,7370.0,Approved
+INV01104,Staples Business Advantage,2025-01-21,per_unit,1.05,763.0,801.15,Approved
+INV01105,Meridian Systems Group,2025-09-26,hourly,130.0,47.7,6201.0,Approved
+INV01106,Hartwell Legal Advisors,2025-05-22,hourly,310.0,26.2,8122.0,Approved
+INV01107,Beacon Consulting Partners,2025-11-25,hourly,220.0,66.3,14586.0,Pending Review
+INV01108,Meridian Systems Group,2025-05-16,hourly,130.0,57.7,7501.0,Approved
+INV01109,Reliant Facilities Mgmt,2025-05-25,hourly,62.0,34.0,2108.0,Approved
+INV01110,Reliant Facilities Mgmt,2025-03-29,hourly,62.0,44.6,2903.34,Approved
+INV01111,Meridian Systems Group,2025-03-23,hourly,130.0,63.6,8268.0,Approved
+INV01112,Hartwell Legal Advisors,2025-03-06,hourly,310.0,4.9,1519.0,Approved
+INV01113,Vantage Software Inc,2025-04-09,per_seat,42.0,221.0,9282.0,Approved
+INV01114,Staples Business Advantage,2025-01-31,per_unit,1.0,157.0,157.0,Approved
+INV01115,Beacon Consulting Partners,2025-05-16,hourly,227.18,77.4,17583.73,Approved
+INV01116,Vantage Software Inc,2025-06-05,per_seat,42.0,273.0,11466.0,Pending Review
+INV01117,ClearView Janitorial,2025-08-14,hourly,38.0,59.4,2257.2,Approved
+INV01118,Vantage Software Inc,2025-03-24,per_seat,42.0,204.0,8568.0,Approved
+INV01119,Meridian Systems Group,2025-11-27,hourly,130.0,30.7,3991.0,Approved
+INV01120,Vantage Software Inc,2025-06-03,per_seat,42.0,29.0,1218.0,Approved
+INV01121,Vantage Software Inc,2025-06-05,per_seat,42.0,29.0,1218.0,Approved
+INV01122,Beacon Consulting Partners,2025-09-19,hourly,220.0,6.8,1496.0,Approved
+INV01123,Hartwell Legal Advisors,2025-12-13,hourly,326.08,68.2,22238.66,Approved
+INV01124,OfficeMax Direct,2025-03-21,per_unit,1.0,726.0,726.0,Approved
+INV01125,CloudSuite Solutions,2025-09-16,per_seat,55.0,42.0,2310.0,Approved
+INV01126,Hartwell Legal Advisors,2025-02-26,hourly,310.0,30.2,9362.0,Rejected
+INV01127,Hartwell Legal Advisors,2025-11-22,hourly,310.0,56.3,17453.0,Approved
+INV01128,Staples Business Advantage,2025-08-02,per_unit,1.0,607.0,607.0,Approved
+INV01129,CloudSuite Solutions,2025-01-20,per_seat,55.0,73.0,4015.0,Pending Review
+INV01130,CloudSuite Solutions,2025-06-16,per_seat,55.0,233.0,12815.0,Approved
+INV01131,OfficeMax Direct,2025-10-08,per_unit,1.04,731.0,760.24,Approved
+INV01132,Reliant Facilities Mgmt,2025-07-13,hourly,62.0,25.3,1568.6,Approved
+INV01133,Reliant Facilities Mgmt,2025-07-21,hourly,62.0,25.3,1568.6,Pending Review
+INV01134,Reliant Facilities Mgmt,2025-10-20,hourly,62.0,58.4,3620.8,Approved
+INV01135,Beacon Consulting Partners,2025-11-09,hourly,220.0,9.0,1980.0,Pending Review
+INV01136,Reliant Facilities Mgmt,2025-04-12,hourly,62.0,74.3,4606.6,Approved
+INV01137,Staples Business Advantage,2025-06-23,per_unit,1.0,184.0,184.0,Approved
+INV01138,Staples Business Advantage,2025-06-29,per_unit,1.0,184.0,184.0,Approved
+INV01139,ClearView Janitorial,2025-12-05,hourly,38.0,56.4,2143.2,Pending Review
+INV01140,ClearView Janitorial,2025-06-14,hourly,38.0,73.5,2793.0,Pending Review
+INV01141,CloudSuite Solutions,2025-06-06,per_seat,55.0,90.0,4950.0,Approved
+INV01142,Vantage Software Inc,2025-01-18,per_seat,42.0,27.2,1142.4,Approved
+INV01143,Beacon Consulting Partners,2025-08-09,hourly,226.07,55.7,12592.1,Approved
+INV01144,Staples Business Advantage,2025-11-30,per_unit,1.0,228.0,228.0,Pending Review
+INV01145,Apex IT Consulting,2025-02-15,hourly,145.0,31.5,4567.5,Approved
+INV01146,Regional Courier Co,2025-03-09,per_shipment,14.0,275.0,3850.0,Pending Review
+INV01147,Reliant Facilities Mgmt,2025-10-05,hourly,62.0,49.4,3062.8,Approved
+INV01148,Beacon Consulting Partners,2025-05-28,hourly,220.0,39.0,8580.0,Approved
+INV01149,Reliant Facilities Mgmt,2025-01-06,hourly,62.0,22.0,1364.0,Approved
+INV01150,CloudSuite Solutions,2025-11-15,per_seat,55.0,18.0,990.0,Pending Review
+INV01151,Staples Business Advantage,2025-02-05,per_unit,1.0,562.0,562.0,Approved
+INV01152,OfficeMax Direct,2025-06-15,per_unit,1.0,602.0,602.0,Approved
+INV01153,Beacon Consulting Partners,2025-09-22,hourly,220.0,76.5,16875.25,Approved
+INV01154,ClearView Janitorial,2025-01-16,hourly,39.66,57.6,2284.42,Approved
+INV01155,Regional Courier Co,2025-11-16,per_shipment,14.0,142.0,1988.0,Pending Review
+INV01156,Regional Courier Co,2025-11-20,per_shipment,14.0,142.0,1988.0,Approved
+INV01157,Beacon Consulting Partners,2025-09-10,hourly,220.0,51.0,11220.0,Approved
+INV01158,Apex IT Consulting,2025-05-28,hourly,145.0,6.6,1007.16,Approved
+INV01159,CloudSuite Solutions,2025-12-17,per_seat,56.97,160.0,9115.2,Approved
+INV01160,Apex IT Consulting,2025-04-14,hourly,145.0,45.9,6655.5,Approved
+INV01161,Beacon Consulting Partners,2025-02-26,hourly,230.08,68.5,15760.48,Pending Review
+INV01162,OfficeMax Direct,2025-05-30,per_unit,1.0,756.0,756.0,Approved
+INV01163,OfficeMax Direct,2025-06-03,per_unit,1.0,756.0,756.0,Pending Review
+INV01164,Reliant Facilities Mgmt,2025-08-15,hourly,62.0,30.9,2010.78,Approved
+INV01165,Apex IT Consulting,2025-03-17,hourly,145.0,8.3,1203.5,Approved
+INV01166,Reliant Facilities Mgmt,2025-03-20,hourly,62.0,35.2,2182.4,Approved
+INV01167,Hartwell Legal Advisors,2025-09-24,hourly,310.0,9.2,2852.0,Approved
+INV01168,Hartwell Legal Advisors,2025-08-02,hourly,310.0,13.4,4154.0,Approved
+INV01169,Staples Business Advantage,2025-07-06,per_unit,1.0,61.0,61.0,Approved
+INV01170,Hartwell Legal Advisors,2025-01-06,hourly,310.0,29.9,9269.0,Pending Review
+INV01171,ClearView Janitorial,2025-02-27,hourly,38.0,16.1,611.8,Approved
+INV01172,Reliant Facilities Mgmt,2025-02-19,hourly,65.22,78.6,5126.29,Approved
+INV01173,Beacon Consulting Partners,2025-11-25,hourly,226.82,40.1,9095.48,Approved
+INV01174,Reliant Facilities Mgmt,2025-03-20,hourly,62.0,48.9,3031.8,Pending Review
+INV01175,Vantage Software Inc,2025-10-15,per_seat,42.0,57.0,2394.0,Approved
+INV01176,Meridian Systems Group,2025-05-09,hourly,130.0,47.3,6149.0,Approved
+INV01177,Staples Business Advantage,2025-05-18,per_unit,1.0,320.0,320.0,Rejected
+INV01178,Vantage Software Inc,2025-03-30,per_seat,42.0,23.0,966.0,Approved
+INV01179,Hartwell Legal Advisors,2025-06-22,hourly,310.0,37.6,11656.0,Pending Review
+INV01180,Swift Freight Logistics,2025-04-04,per_shipment,18.5,329.0,6086.5,Approved
+INV01181,Vantage Software Inc,2025-11-14,per_seat,42.0,30.0,1260.0,Approved
+INV01182,CloudSuite Solutions,2025-01-30,per_seat,55.0,58.0,3190.0,Approved
+INV01183,CloudSuite Solutions,2025-08-19,per_seat,57.05,137.0,7815.85,Pending Review
+INV01184,Meridian Systems Group,2025-04-26,hourly,130.0,76.4,9932.0,Pending Review
+INV01185,Reliant Facilities Mgmt,2025-01-05,hourly,62.0,31.2,1934.4,Approved
+INV01186,Hartwell Legal Advisors,2025-11-02,hourly,310.0,30.4,9424.0,Approved
+INV01187,Staples Business Advantage,2025-08-10,per_unit,1.0,545.0,545.0,Approved
+INV01188,Staples Business Advantage,2025-05-24,per_unit,1.0,254.0,254.0,Approved
+INV01189,OfficeMax Direct,2025-10-22,per_unit,1.0,200.0,200.0,Pending Review
+INV01190,Apex IT Consulting,2025-01-08,hourly,151.27,59.1,8940.06,Rejected
+INV01191,Staples Business Advantage,2025-03-21,per_unit,1.05,402.0,422.1,Approved
+INV01192,CloudSuite Solutions,2025-06-30,per_seat,68.49,10.0,684.9,Approved
+INV01193,Staples Business Advantage,2025-05-12,per_unit,1.0,488.0,488.0,Approved
+INV01194,Swift Freight Logistics,2025-06-08,per_shipment,18.5,389.0,7196.5,Approved
+INV01195,Apex IT Consulting,2025-01-31,hourly,145.0,75.3,10918.5,Pending Review
+INV01196,OfficeMax Direct,2025-09-10,per_unit,1.0,400.0,400.0,Approved
+INV01197,Apex IT Consulting,2025-02-20,hourly,145.0,76.4,11078.0,Approved
+INV01198,CloudSuite Solutions,2025-08-07,per_seat,55.0,9.0,495.0,Approved
+INV01199,Hartwell Legal Advisors,2025-09-14,hourly,310.0,27.4,8494.0,Approved
+INV01200,Meridian Systems Group,2025-03-16,hourly,180.53,12.8,2310.78,Approved
+INV01201,Reliant Facilities Mgmt,2025-10-27,hourly,62.0,69.4,4302.8,Rejected
+INV01202,Vantage Software Inc,2025-09-23,per_seat,42.0,145.0,6090.0,Approved
+INV01203,Regional Courier Co,2025-09-21,per_shipment,14.48,352.0,5096.96,Approved
+INV01204,Hartwell Legal Advisors,2025-03-04,hourly,310.0,4.3,1333.0,Pending Review
+INV01205,Hartwell Legal Advisors,2025-07-17,hourly,310.0,23.1,7161.0,Approved
+INV01206,Hartwell Legal Advisors,2025-12-22,hourly,310.0,81.3,25203.0,Rejected
+INV01207,Meridian Systems Group,2025-07-19,hourly,130.0,37.5,4875.0,Approved
+INV01208,Meridian Systems Group,2025-05-24,hourly,130.0,13.2,1716.0,Approved
+INV01209,Swift Freight Logistics,2025-10-16,per_shipment,18.5,97.0,1794.5,Approved
+INV01210,Staples Business Advantage,2025-09-05,per_unit,1.0,487.0,487.0,Pending Review
+INV01211,Swift Freight Logistics,2025-07-22,per_shipment,18.5,227.0,4199.5,Approved
+INV01212,Meridian Systems Group,2025-03-23,hourly,130.0,70.1,9113.0,Approved
+INV01213,ClearView Janitorial,2025-03-24,hourly,38.0,66.7,2534.6,Approved
+INV01214,Regional Courier Co,2025-11-29,per_shipment,14.0,205.0,2870.0,Pending Review
+INV01215,Staples Business Advantage,2025-08-15,per_unit,1.0,561.0,561.0,Pending Review
+INV01216,Beacon Consulting Partners,2025-12-02,hourly,220.0,53.3,11726.0,Approved
+INV01217,Swift Freight Logistics,2025-11-22,per_shipment,18.5,243.0,4495.5,Approved
+INV01218,Swift Freight Logistics,2025-05-15,per_shipment,18.5,118.0,2183.0,Approved
+INV01219,Apex IT Consulting,2025-06-30,hourly,145.0,77.6,11252.0,Approved
+INV01220,Hartwell Legal Advisors,2025-10-31,hourly,310.0,63.8,19778.0,Approved
+INV01221,Vantage Software Inc,2025-07-19,per_seat,42.0,192.0,8064.0,Pending Review
+INV01222,Regional Courier Co,2025-10-11,per_shipment,14.0,193.9,2714.6,Pending Review
+INV01223,Beacon Consulting Partners,2025-09-23,hourly,220.0,77.7,17094.0,Approved
+INV01224,Beacon Consulting Partners,2025-09-30,hourly,220.0,77.7,17094.0,Pending Review
+INV01225,Beacon Consulting Partners,2025-06-24,hourly,220.0,55.3,12166.0,Approved
+INV01226,Beacon Consulting Partners,2025-07-02,hourly,220.0,55.3,12166.0,Approved
+INV01227,Hartwell Legal Advisors,2025-08-30,hourly,310.0,77.5,24025.0,Approved
+INV01228,CloudSuite Solutions,2025-07-19,per_seat,55.0,245.0,13475.0,Approved
+INV01229,OfficeMax Direct,2025-06-30,per_unit,1.0,612.1,612.1,Pending Review
+INV01230,Vantage Software Inc,2025-07-21,per_seat,42.0,5.0,210.0,Approved
+INV01231,Swift Freight Logistics,2025-04-23,per_shipment,23.76,67.0,1591.92,Approved
+INV01232,Swift Freight Logistics,2025-02-26,per_shipment,18.5,267.0,4939.5,Approved
+INV01233,ClearView Janitorial,2025-11-27,hourly,38.0,35.1,1374.38,Approved
+INV01234,OfficeMax Direct,2025-05-06,per_unit,1.03,137.0,141.11,Approved
+INV01235,Apex IT Consulting,2025-09-25,hourly,145.0,32.4,4698.0,Approved
+INV01236,OfficeMax Direct,2025-10-14,per_unit,1.0,354.0,448.97,Approved
+INV01237,Apex IT Consulting,2025-03-11,hourly,145.0,13.6,1972.0,Pending Review
+INV01238,Apex IT Consulting,2025-06-12,hourly,145.0,57.6,8352.0,Approved
+INV01239,OfficeMax Direct,2025-05-11,per_unit,1.05,84.0,88.2,Approved
+INV01240,OfficeMax Direct,2025-05-29,per_unit,1.0,716.0,716.0,Approved
+INV01241,Beacon Consulting Partners,2025-04-27,hourly,220.0,76.4,16808.0,Approved
+INV01242,Regional Courier Co,2025-08-23,per_shipment,14.0,158.0,2212.0,Rejected
+INV01243,OfficeMax Direct,2025-07-19,per_unit,1.0,284.0,284.0,Rejected
+INV01244,OfficeMax Direct,2025-04-23,per_unit,1.0,57.0,57.0,Approved
+INV01245,Beacon Consulting Partners,2025-08-02,hourly,232.15,70.1,16273.71,Approved
+INV01246,Regional Courier Co,2025-05-24,per_shipment,14.0,63.6,890.4,Approved
+INV01247,Reliant Facilities Mgmt,2025-12-22,hourly,62.0,28.7,1779.4,Approved
+INV01248,Meridian Systems Group,2025-11-28,hourly,130.0,52.4,6812.0,Approved
+INV01249,Beacon Consulting Partners,2025-11-15,hourly,220.0,24.9,5540.15,Approved
+INV01250,Beacon Consulting Partners,2025-01-26,hourly,220.0,54.6,12012.0,Approved
+INV01251,Apex IT Consulting,2025-07-21,hourly,145.0,71.5,10367.5,Rejected
+INV01252,Staples Business Advantage,2025-12-13,per_unit,1.0,479.0,479.0,Approved
+INV01253,Apex IT Consulting,2025-08-18,hourly,145.0,40.2,5829.0,Approved
+INV01254,CloudSuite Solutions,2025-12-06,per_seat,55.0,10.0,641.0,Rejected
+INV01255,Staples Business Advantage,2025-01-15,per_unit,1.0,656.0,656.0,Approved
+INV01256,Swift Freight Logistics,2025-01-08,per_shipment,18.5,143.0,2645.5,Approved
+INV01257,CloudSuite Solutions,2025-06-14,per_seat,55.0,140.0,7767.54,Approved
+INV01258,Hartwell Legal Advisors,2025-08-09,hourly,320.39,5.4,1730.11,Approved
+INV01259,Staples Business Advantage,2025-10-03,per_unit,1.0,252.0,252.0,Approved
+INV01260,Vantage Software Inc,2025-08-12,per_seat,42.0,15.0,630.0,Approved
+INV01261,ClearView Janitorial,2025-07-09,hourly,38.0,27.3,1037.4,Rejected
+INV01262,Staples Business Advantage,2025-11-01,per_unit,1.0,234.0,234.0,Approved
+INV01263,Regional Courier Co,2025-06-04,per_shipment,14.0,325.0,4550.0,Approved
+INV01264,Regional Courier Co,2025-06-06,per_shipment,14.0,325.0,4550.0,Approved
+INV01265,Apex IT Consulting,2025-11-25,hourly,145.0,22.6,3277.0,Pending Review
+INV01266,Hartwell Legal Advisors,2025-09-12,hourly,310.0,70.6,21886.0,Approved
+INV01267,Reliant Facilities Mgmt,2025-05-22,hourly,64.76,77.0,4986.52,Approved
+INV01268,Apex IT Consulting,2025-02-01,hourly,145.0,28.9,4190.5,Pending Review
+INV01269,OfficeMax Direct,2025-11-18,per_unit,1.0,90.0,90.0,Pending Review
+INV01270,Apex IT Consulting,2025-01-13,hourly,150.13,40.4,6065.25,Approved
+INV01271,Beacon Consulting Partners,2025-04-01,hourly,300.83,31.2,9385.9,Approved
+INV01272,Vantage Software Inc,2025-07-09,per_seat,42.0,152.0,6384.0,Approved
+INV01273,ClearView Janitorial,2025-03-15,hourly,38.0,10.5,399.0,Approved
+INV01274,Meridian Systems Group,2025-02-13,hourly,130.0,67.9,8827.0,Approved
+INV01275,Staples Business Advantage,2025-09-21,per_unit,1.0,269.0,269.0,Approved
+INV01276,Meridian Systems Group,2025-02-05,hourly,130.0,45.0,5850.0,Approved
+INV01277,CloudSuite Solutions,2025-11-19,per_seat,55.0,24.0,1320.0,Approved
+INV01278,Apex IT Consulting,2025-01-25,hourly,145.0,25.8,3858.36,Approved
+INV01279,Hartwell Legal Advisors,2025-01-06,hourly,310.0,63.6,19716.0,Approved
+INV01280,Meridian Systems Group,2025-02-12,hourly,130.0,51.6,6708.0,Pending Review
+INV01281,Meridian Systems Group,2025-11-12,hourly,130.0,27.2,3536.0,Approved
+INV01282,Beacon Consulting Partners,2025-10-08,hourly,220.0,65.8,14476.0,Rejected
+INV01283,Beacon Consulting Partners,2025-10-13,hourly,220.0,65.8,14476.0,Pending Review
+INV01284,OfficeMax Direct,2025-11-12,per_unit,1.0,728.0,728.0,Approved
+INV01285,Hartwell Legal Advisors,2025-02-13,hourly,310.0,70.1,21731.0,Pending Review
+INV01286,Meridian Systems Group,2025-08-01,hourly,130.0,51.5,6695.0,Pending Review
+INV01287,Regional Courier Co,2025-06-02,per_shipment,14.0,332.0,4648.0,Approved
+INV01288,CloudSuite Solutions,2025-07-08,per_seat,55.0,185.0,10175.0,Approved
+INV01289,Regional Courier Co,2025-09-02,per_shipment,16.93,112.0,1896.16,Rejected
+INV01290,Hartwell Legal Advisors,2025-12-18,hourly,310.0,18.8,5828.0,Approved
+INV01291,Meridian Systems Group,2025-10-08,hourly,130.0,26.3,3419.0,Approved
+INV01292,Apex IT Consulting,2025-12-23,hourly,145.0,20.9,3030.5,Approved
+INV01293,Apex IT Consulting,2026-01-01,hourly,145.0,20.9,3030.5,Pending Review
+INV01294,Hartwell Legal Advisors,2025-10-29,hourly,310.0,77.9,24149.0,Pending Review
+INV01295,Regional Courier Co,2025-07-29,per_shipment,14.0,245.0,3430.0,Approved
+INV01296,Reliant Facilities Mgmt,2025-12-29,hourly,62.0,15.7,973.4,Approved
+INV01297,Swift Freight Logistics,2025-11-03,per_shipment,18.5,176.0,3256.0,Approved
+INV01298,Apex IT Consulting,2025-02-24,hourly,145.0,17.0,2465.0,Approved
+INV01299,Hartwell Legal Advisors,2025-12-11,hourly,310.0,74.6,23126.0,Approved
+INV01300,Hartwell Legal Advisors,2025-12-18,hourly,310.0,74.6,23126.0,Pending Review
+INV01301,Meridian Systems Group,2025-09-04,hourly,130.0,52.5,6825.0,Pending Review
+INV01302,Beacon Consulting Partners,2025-06-10,hourly,220.0,37.7,8294.0,Pending Review
+INV01303,Swift Freight Logistics,2025-07-06,per_shipment,18.99,262.0,4975.38,Approved
+INV01304,ClearView Janitorial,2025-11-17,hourly,38.0,91.5,3477.0,Approved
+INV01305,CloudSuite Solutions,2025-09-23,per_seat,55.0,44.0,2420.0,Approved
+INV01306,Swift Freight Logistics,2025-01-17,per_shipment,18.5,136.0,2516.0,Approved
+INV01307,ClearView Janitorial,2025-10-23,hourly,38.0,27.0,1123.5,Rejected
+INV01308,ClearView Janitorial,2025-05-14,hourly,38.0,64.2,2439.6,Approved
+INV01309,ClearView Janitorial,2025-09-12,hourly,39.9,6.8,271.32,Pending Review
+INV01310,Staples Business Advantage,2025-02-13,per_unit,1.0,20.0,20.0,Approved
+INV01311,Apex IT Consulting,2025-10-19,hourly,145.0,58.2,8439.0,Approved
+INV01312,Beacon Consulting Partners,2025-07-17,hourly,230.84,25.7,5932.59,Pending Review
+INV01313,Reliant Facilities Mgmt,2025-03-14,hourly,62.0,49.4,3062.8,Pending Review
+INV01314,Hartwell Legal Advisors,2025-03-25,hourly,310.0,32.0,9920.0,Approved
+INV01315,ClearView Janitorial,2025-09-02,hourly,39.86,63.3,2523.14,Approved
+INV01316,Apex IT Consulting,2025-07-09,hourly,201.65,72.1,14538.97,Approved
+INV01317,ClearView Janitorial,2025-03-07,hourly,38.0,17.3,657.4,Pending Review
+INV01318,Regional Courier Co,2025-05-19,per_shipment,14.0,34.0,476.0,Approved
+INV01319,CloudSuite Solutions,2025-07-08,per_seat,57.04,185.0,10552.4,Approved
+INV01320,Apex IT Consulting,2025-08-23,hourly,145.0,21.7,3146.5,Approved
+INV01321,OfficeMax Direct,2025-02-05,per_unit,1.0,125.0,125.0,Pending Review
+INV01322,Staples Business Advantage,2025-10-20,per_unit,1.0,440.0,440.0,Approved
+INV01323,ClearView Janitorial,2025-08-11,hourly,38.0,10.8,410.4,Approved
+INV01324,Staples Business Advantage,2025-02-12,per_unit,1.0,530.0,530.0,Approved
+INV01325,CloudSuite Solutions,2025-02-14,per_seat,55.0,148.0,8140.0,Approved
+INV01326,Reliant Facilities Mgmt,2025-12-15,hourly,62.0,47.1,2920.2,Rejected
+INV01327,CloudSuite Solutions,2025-05-12,per_seat,55.0,66.0,3630.0,Approved
+INV01328,OfficeMax Direct,2025-03-14,per_unit,1.0,144.0,144.0,Approved
+INV01329,Staples Business Advantage,2025-07-05,per_unit,1.0,651.0,651.0,Rejected
+INV01330,Staples Business Advantage,2025-07-10,per_unit,1.0,651.0,651.0,Approved
+INV01331,CloudSuite Solutions,2025-10-16,per_seat,55.0,116.0,6380.0,Rejected
+INV01332,Hartwell Legal Advisors,2025-09-04,hourly,316.7,27.9,8835.93,Approved
+INV01333,Vantage Software Inc,2025-11-26,per_seat,42.0,203.7,8555.4,Approved
+INV01334,Reliant Facilities Mgmt,2025-11-24,hourly,62.0,4.1,254.2,Approved
+INV01335,OfficeMax Direct,2025-07-01,per_unit,1.0,706.0,706.0,Approved
+INV01336,Swift Freight Logistics,2025-03-02,per_shipment,18.5,167.0,3089.5,Approved
+INV01337,ClearView Janitorial,2025-12-17,hourly,38.0,28.3,1075.4,Approved
+INV01338,Vantage Software Inc,2025-08-13,per_seat,42.0,198.0,8316.0,Approved
+INV01339,Meridian Systems Group,2025-07-25,hourly,137.16,47.1,6460.24,Approved
+INV01340,ClearView Janitorial,2025-05-26,hourly,38.0,75.9,2884.2,Pending Review
+INV01341,Beacon Consulting Partners,2025-02-20,hourly,231.9,12.7,2945.13,Approved
+INV01342,Reliant Facilities Mgmt,2025-12-04,hourly,63.27,48.4,3062.27,Pending Review
+INV01343,Regional Courier Co,2025-01-04,per_shipment,14.0,278.0,3892.0,Approved
+INV01344,Staples Business Advantage,2025-01-18,per_unit,1.0,166.0,202.28,Approved
+INV01345,Apex IT Consulting,2025-04-24,hourly,145.0,24.1,3494.5,Approved
+INV01346,Apex IT Consulting,2025-12-28,hourly,145.0,71.2,10324.0,Approved
+INV01347,Apex IT Consulting,2025-12-31,hourly,145.0,71.2,10324.0,Approved
+INV01348,Reliant Facilities Mgmt,2025-07-16,hourly,64.37,23.8,1532.01,Approved
+INV01349,Meridian Systems Group,2025-07-10,hourly,130.0,74.1,9633.0,Approved
+INV01350,Vantage Software Inc,2025-04-29,per_seat,42.0,228.0,9576.0,Approved
+INV01351,Vantage Software Inc,2025-05-05,per_seat,42.0,228.0,9576.0,Approved
+INV01352,OfficeMax Direct,2025-01-23,per_unit,1.0,786.0,786.0,Approved
+INV01353,OfficeMax Direct,2025-03-25,per_unit,1.0,516.0,516.0,Approved
+INV01354,Regional Courier Co,2025-09-12,per_shipment,14.0,376.0,5264.0,Approved
+INV01355,Staples Business Advantage,2025-02-02,per_unit,1.0,350.0,350.0,Rejected
+INV01356,Vantage Software Inc,2025-04-12,per_seat,50.8,217.0,11023.6,Pending Review
+INV01357,Swift Freight Logistics,2025-05-10,per_shipment,18.5,186.0,3441.0,Approved
+INV01358,Meridian Systems Group,2025-06-01,hourly,130.0,36.0,4680.0,Pending Review
+INV01359,Beacon Consulting Partners,2025-03-15,hourly,306.64,25.5,7819.32,Approved
+INV01360,Vantage Software Inc,2025-08-06,per_seat,42.0,234.0,9828.0,Pending Review
+INV01361,ClearView Janitorial,2025-06-17,hourly,38.0,36.6,1390.8,Approved
+INV01362,Reliant Facilities Mgmt,2025-06-21,hourly,62.0,28.8,1785.6,Approved
+INV01363,Regional Courier Co,2025-11-07,per_shipment,14.0,137.0,1918.0,Approved
+INV01364,OfficeMax Direct,2025-11-15,per_unit,1.0,472.0,472.0,Approved
+INV01365,Staples Business Advantage,2025-09-06,per_unit,1.19,350.0,416.5,Approved
+INV01366,Hartwell Legal Advisors,2025-09-26,hourly,328.58,54.9,18039.04,Approved
+INV01367,Apex IT Consulting,2025-04-03,hourly,145.0,71.6,10382.0,Approved
+INV01368,Regional Courier Co,2025-04-06,per_shipment,14.0,360.9,5052.6,Approved
+INV01369,Hartwell Legal Advisors,2025-06-06,hourly,310.0,44.3,13733.0,Approved
+INV01370,Reliant Facilities Mgmt,2025-06-10,hourly,63.84,32.3,2062.03,Approved
+INV01371,ClearView Janitorial,2025-11-29,hourly,38.0,24.2,919.6,Pending Review
+INV01372,OfficeMax Direct,2025-04-20,per_unit,1.21,535.0,647.35,Pending Review
+INV01373,Reliant Facilities Mgmt,2025-06-01,hourly,63.91,52.4,3348.88,Pending Review
+INV01374,Staples Business Advantage,2025-12-05,per_unit,1.0,349.0,349.0,Approved
+INV01375,Staples Business Advantage,2025-12-11,per_unit,1.0,349.0,349.0,Pending Review
+INV01376,Staples Business Advantage,2025-08-16,per_unit,1.0,245.0,245.0,Approved
+INV01377,Vantage Software Inc,2025-03-04,per_seat,42.0,237.7,9983.4,Approved
+INV01378,Regional Courier Co,2025-11-20,per_shipment,14.0,69.0,966.0,Approved
+INV01379,CloudSuite Solutions,2025-05-04,per_seat,55.0,99.0,5445.0,Approved
+INV01380,ClearView Janitorial,2025-09-02,hourly,38.0,57.4,2181.2,Approved
+INV01381,Hartwell Legal Advisors,2025-11-07,hourly,318.69,51.4,16380.67,Approved
+INV01382,Meridian Systems Group,2025-04-09,hourly,130.0,54.6,7098.0,Approved
+INV01383,ClearView Janitorial,2025-12-21,hourly,38.0,55.2,2097.6,Approved
+INV01384,Meridian Systems Group,2025-06-21,hourly,130.0,14.9,1937.0,Approved
+INV01385,Apex IT Consulting,2025-09-16,hourly,145.0,52.2,7569.0,Approved
+INV01386,Swift Freight Logistics,2025-10-19,per_shipment,18.5,363.0,6715.5,Pending Review
+INV01387,Staples Business Advantage,2025-07-17,per_unit,1.0,644.0,644.0,Pending Review
+INV01388,Apex IT Consulting,2025-12-25,hourly,145.0,30.3,4393.5,Approved
+INV01389,Reliant Facilities Mgmt,2025-09-01,hourly,62.0,54.8,3397.6,Approved
+INV01390,Reliant Facilities Mgmt,2025-09-10,hourly,62.0,54.8,3397.6,Approved
+INV01391,Apex IT Consulting,2025-04-14,hourly,145.0,23.2,3364.0,Approved
+INV01392,ClearView Janitorial,2025-02-11,hourly,38.0,47.1,1789.8,Approved
+INV01393,Swift Freight Logistics,2025-04-29,per_shipment,18.5,249.0,4606.5,Approved
+INV01394,Apex IT Consulting,2025-11-05,hourly,145.0,39.7,5828.58,Approved
+INV01395,Swift Freight Logistics,2025-09-06,per_shipment,18.5,345.0,6382.5,Approved
+INV01396,OfficeMax Direct,2025-05-06,per_unit,1.0,658.0,658.0,Approved
+INV01397,OfficeMax Direct,2025-11-25,per_unit,1.0,226.0,226.0,Approved
+INV01398,OfficeMax Direct,2025-12-01,per_unit,1.0,226.0,226.0,Approved
+INV01399,Staples Business Advantage,2025-08-18,per_unit,1.0,87.0,87.0,Approved
+INV01400,Beacon Consulting Partners,2025-05-30,hourly,220.0,18.7,4114.0,Approved
+INV01401,Apex IT Consulting,2025-11-13,hourly,145.0,31.9,4625.5,Approved
+INV01402,ClearView Janitorial,2025-07-20,hourly,40.1,67.3,2698.73,Pending Review
+INV01403,Hartwell Legal Advisors,2025-06-05,hourly,310.0,22.2,6882.0,Approved
+INV01404,ClearView Janitorial,2025-06-20,hourly,38.0,43.7,1660.6,Approved
+INV01405,ClearView Janitorial,2025-06-23,hourly,38.0,43.7,1660.6,Approved
+INV01406,OfficeMax Direct,2025-05-22,per_unit,1.0,505.0,505.0,Pending Review
+INV01407,Meridian Systems Group,2025-12-01,hourly,149.99,65.3,9794.35,Approved
+INV01408,Apex IT Consulting,2025-11-11,hourly,145.0,56.7,8221.5,Approved
+INV01409,Staples Business Advantage,2025-03-23,per_unit,1.0,126.0,126.0,Approved
+INV01410,Meridian Systems Group,2025-05-23,hourly,167.71,73.0,12242.83,Approved
+INV01411,ClearView Janitorial,2025-04-14,hourly,38.0,20.3,771.4,Pending Review
+INV01412,Meridian Systems Group,2025-07-28,hourly,130.0,55.9,7267.0,Approved
+INV01413,Beacon Consulting Partners,2025-05-19,hourly,220.0,72.3,15906.0,Pending Review
+INV01414,CloudSuite Solutions,2025-01-29,per_seat,55.0,245.0,13475.0,Approved
+INV01415,Reliant Facilities Mgmt,2025-06-14,hourly,62.0,66.2,4104.4,Approved
+INV01416,Swift Freight Logistics,2025-01-01,per_shipment,18.5,52.0,962.0,Approved
+INV01417,CloudSuite Solutions,2025-03-15,per_seat,55.0,26.0,1430.0,Approved
+INV01418,Swift Freight Logistics,2025-06-17,per_shipment,18.5,178.0,3293.0,Pending Review
+INV01419,Apex IT Consulting,2025-03-28,hourly,145.0,30.5,4422.5,Approved
+INV01420,Reliant Facilities Mgmt,2025-04-11,hourly,62.0,17.5,1085.0,Approved
+INV01421,Hartwell Legal Advisors,2025-01-15,hourly,310.0,35.9,11129.0,Approved
+INV01422,Apex IT Consulting,2025-12-08,hourly,145.0,11.9,1725.5,Approved
+INV01423,Vantage Software Inc,2025-06-10,per_seat,42.0,192.0,8064.0,Approved
+INV01424,Swift Freight Logistics,2025-08-30,per_shipment,18.5,259.0,4791.5,Approved
+INV01425,OfficeMax Direct,2025-03-15,per_unit,1.0,248.0,248.0,Approved
+INV01426,Swift Freight Logistics,2025-12-29,per_shipment,18.5,266.0,4921.0,Approved
+INV01427,Meridian Systems Group,2025-04-04,hourly,130.0,15.8,2054.0,Approved
+INV01428,Reliant Facilities Mgmt,2025-05-29,hourly,62.0,20.8,1289.6,Approved
+INV01429,Regional Courier Co,2025-01-10,per_shipment,14.0,115.0,1610.0,Approved
+INV01430,CloudSuite Solutions,2025-04-26,per_seat,55.0,176.0,9680.0,Approved
+INV01431,Meridian Systems Group,2025-10-12,hourly,130.0,19.6,2548.0,Approved
+INV01432,Swift Freight Logistics,2025-04-30,per_shipment,18.5,60.0,1110.0,Approved
+INV01433,Meridian Systems Group,2025-01-07,hourly,130.0,35.4,4602.0,Approved
+INV01434,Apex IT Consulting,2025-11-30,hourly,145.0,43.3,6278.5,Approved
+INV01435,Reliant Facilities Mgmt,2025-06-04,hourly,62.0,32.9,2039.8,Approved
+INV01436,Regional Courier Co,2025-01-29,per_shipment,14.0,282.2,3950.8,Approved
+INV01437,Regional Courier Co,2025-11-25,per_shipment,14.0,211.0,2954.0,Approved
+INV01438,Meridian Systems Group,2025-04-16,hourly,130.0,76.6,9958.0,Approved
+INV01439,Apex IT Consulting,2025-03-18,hourly,145.0,13.6,1972.0,Approved
+INV01440,Vantage Software Inc,2025-02-05,per_seat,42.0,246.0,10332.0,Approved
+INV01441,Swift Freight Logistics,2025-06-19,per_shipment,18.5,89.0,1646.5,Pending Review
+INV01442,Beacon Consulting Partners,2025-10-30,hourly,220.0,73.4,16148.0,Approved
+INV01443,Vantage Software Inc,2025-01-24,per_seat,42.0,127.0,5334.0,Approved
+INV01444,ClearView Janitorial,2025-11-10,hourly,39.65,62.6,2482.09,Approved
+INV01445,Vantage Software Inc,2025-06-22,per_seat,42.0,171.0,7182.0,Approved
+INV01446,CloudSuite Solutions,2025-10-28,per_seat,55.0,132.7,7298.5,Approved
+INV01447,Staples Business Advantage,2025-03-06,per_unit,1.0,744.0,744.0,Approved
+INV01448,Reliant Facilities Mgmt,2025-01-28,hourly,65.64,59.5,3905.58,Rejected
+INV01449,Apex IT Consulting,2025-04-26,hourly,145.0,74.3,10773.5,Rejected
+INV01450,Hartwell Legal Advisors,2025-05-14,hourly,319.13,15.5,4946.52,Approved
+INV01451,Vantage Software Inc,2025-06-07,per_seat,42.0,216.0,9072.0,Approved
+INV01452,ClearView Janitorial,2025-03-27,hourly,38.0,30.7,1166.6,Pending Review
+INV01453,Regional Courier Co,2025-07-10,per_shipment,14.0,214.0,2996.0,Approved
+INV01454,Beacon Consulting Partners,2025-01-26,hourly,232.22,53.8,12493.44,Approved
+INV01455,Swift Freight Logistics,2025-08-06,per_shipment,18.5,107.0,1979.5,Pending Review
+INV01456,Beacon Consulting Partners,2025-07-24,hourly,220.0,60.1,13222.0,Approved
+INV01457,Beacon Consulting Partners,2025-08-02,hourly,220.0,60.1,13222.0,Pending Review
+INV01458,Apex IT Consulting,2025-04-02,hourly,145.0,8.5,1232.5,Approved
+INV01459,Apex IT Consulting,2025-04-04,hourly,145.0,8.5,1232.5,Pending Review
+INV01460,Apex IT Consulting,2025-03-16,hourly,151.78,69.7,10579.07,Approved
+INV01461,Hartwell Legal Advisors,2025-08-04,hourly,310.0,72.7,22537.0,Pending Review
+INV01462,ClearView Janitorial,2025-07-16,hourly,38.0,47.3,1797.4,Approved
